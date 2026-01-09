@@ -1,0 +1,2247 @@
+fileFormatVersion: 2
+guid: 76f089315c91ae04d8a96870d4ff9905
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: airplane gray 512 205_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3895
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9d29f7d0181754588aae855ce84978
+      internalID: -430323342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3895
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d773468d8790649906872587f24663
+      internalID: -511371124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3895
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1562301a3015c41a5e6d8e6a4e11b5
+      internalID: 540706229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3895
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c3c15899b1fc45a83e7662b43592a
+      internalID: -619874964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3895
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f970ef9ae96f541a630ff6a7891cca
+      internalID: -156575764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3690
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7519f6760ddfb4aa5f7a5a8099a91a
+      internalID: 982182718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3690
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c844d5b07a6726438c63511d8260238
+      internalID: -1007179578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3690
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720f5b3bef0634142b132149a0c24a07
+      internalID: 1675738077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3690
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bcb74464a282748b9a715567759a3e
+      internalID: 586901605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3690
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d724ffca280ad9f4da94ccfbcbc348b8
+      internalID: 896248246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3485
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915808f01841f67409fcba3767d480f1
+      internalID: 1240787426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3485
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6350888d8a1528448922b61a91196fcb
+      internalID: -1556165161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3485
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1911a79445178df4599ef13d44ed0ba6
+      internalID: 1240710692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3485
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f32bd52b1fae2e4eba91a62719a0708
+      internalID: 40410241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3485
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df8e597786d978408706d7a36186a6c
+      internalID: 1577496019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3280
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ce7a2f6c8c3084aa6878d2c21b62f5
+      internalID: -633958394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3280
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88793ed8a319cf84ba77f51fde50f6b4
+      internalID: -432063904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3280
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead23893157c96949bdf58e7abf2521d
+      internalID: 1521466048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3280
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbebfc328c29a441927a6856c82c834
+      internalID: -1050878918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3280
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5f852d017a1c346802b5eb8dffa4a3
+      internalID: 1025800245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3075
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175e6dfea62f2024f9f7ffadeb34a8da
+      internalID: 1172514138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3075
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433422e22c398614e943b7a4c708bfe4
+      internalID: -657940852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3075
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d096917bbedcb54bbb11231ff856d46
+      internalID: -1023183279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3075
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75559c5e78ecba4bbb209f27bc33f94
+      internalID: 1155787850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_24
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3075
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac9f16816182af43b7dfdc33031df4c
+      internalID: -1215832416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2870
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c79247af83f324a81de7b3f0cae457
+      internalID: -1847203172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2870
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b6a79a44531949a6982ed19b2ee30
+      internalID: -102347469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_27
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2870
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a050bafb6afe84d419e5d45fe1b6ef5b
+      internalID: 2112349215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2870
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd1cfcf15b2cea49ae3498c62fb2e60
+      internalID: -324267862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_29
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2870
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bfe9df1a277df4aa923830ad799750
+      internalID: 783587299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2665
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec298b620319f14ab30d2b8b6d0697c
+      internalID: 2132626981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2665
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafe529c708cdcd45b76d469942023b6
+      internalID: 1070682507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2665
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d50535449c89e4b991ee5af3a20303
+      internalID: 458269220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2665
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59506f04449ed20449c0911a975ea5cc
+      internalID: -1906118024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_34
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2665
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b42bd6d2b665a4c9161098112bf397
+      internalID: -703197319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2460
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629fe2db1427a6c44b58efead9514f3f
+      internalID: -1768713226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2460
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c9ea16edc6e5a43b7aeaf58bef3434
+      internalID: -1110434863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2460
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e992619565c58b40b49c54de26bbc04
+      internalID: 1307693036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2460
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19acd23f39be72848a86bfab848c8c1f
+      internalID: -1178707314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_39
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2460
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7119bb9d6d20ede49bf1da27c22d403a
+      internalID: -874489140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2255
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd08885bd08dce4ba23ea598ca93eb4
+      internalID: -752671314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2255
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf0c2cc381d260498405553ade3b2f5
+      internalID: -1196762728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2255
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ee3a8be89ae964ba05fc9cdddfbcd4
+      internalID: 1758677338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2255
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51f6f267fa72184dac801bd1d9eab34
+      internalID: -589899788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2255
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a310a4e4fbb47b47a11cb5c1ca4a778
+      internalID: -1148702756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2050
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8989ec7be06e913439d881f3057befd1
+      internalID: -704766695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2050
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34dd0dd88f4c4b479224b21a025175d
+      internalID: -1909675838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_47
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2050
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68edbdb84d1ebae47af5949f58c60e23
+      internalID: 2004934260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2050
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0e69d147b69544af3eee97bdf7d85
+      internalID: -160273459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_49
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2050
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce890a786e1702a4bb0c6bf885c88834
+      internalID: 871213325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1845
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67068be1a536f0b4ca7f899ccbea07a2
+      internalID: -355723740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1845
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103998b9f012d3b43a31a9acbe04989c
+      internalID: -95301234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1845
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a350b73649c6c48956cd3f0fdcab03
+      internalID: 513974815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1845
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071e3b9ae9b823b4dbaccb7668c9985f
+      internalID: 1069129449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_54
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1845
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42281d3cb47da714a95c186f6ddb4de8
+      internalID: -1803049181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1640
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5d0ef12364f0a4f863b13606f86e63
+      internalID: -513720583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1640
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19babe576635f7047916d495969d5e3a
+      internalID: -1648458719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_57
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1640
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb123b016dbc2be4d92894a740d5a024
+      internalID: 1962900332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_58
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1640
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0995895892731041a40024c340d18a3
+      internalID: 1375777428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_59
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1640
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39afc337844bd8a458cdb244564b779e
+      internalID: 2002008923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cd970759651854d93a08c6a5e586cc
+      internalID: -703756542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_61
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1435
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0b08d7c4d4fab4da7ff7e1abf6e113
+      internalID: -425218562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_62
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1435
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997fcfa3b00217842b92cd8a1e4ce5b5
+      internalID: 106801813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_63
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1435
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080dcefce811d994e96a1813886b2a75
+      internalID: -656446848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_64
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1435
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc6ecc4a18433d4a8235225d8fa2b3f
+      internalID: 1682929004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1230
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f046b2c493f4b0459911e6f3ec62841
+      internalID: -1261665534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_66
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1230
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f541f1f16f75474fa53a3c8115f7208
+      internalID: 1852132150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_67
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1230
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30329369fb669f48866cd5b2aa14d54
+      internalID: -305392032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_68
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1230
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ce029ddb69ca478cf5c0120d46b3d
+      internalID: 754424777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_69
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1230
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e26694f37aaf6344bb5945dfac599b4
+      internalID: -1347311252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e30db59b91062a4d98faa5493d7bb38
+      internalID: -969917563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_71
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1025
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76b79b3c66ca594c8387eb85e56b93b
+      internalID: 350495705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_72
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1025
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244137094603baf4cba2b2581e30b66e
+      internalID: 1209656627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_73
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1025
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa38a5b9c6d70fc489fc604e5cec2823
+      internalID: -849238438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_74
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1025
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df89724949117c4498b93524e6cef298
+      internalID: 2000719246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3e8daf2af3be3438affafd0b0c728f
+      internalID: -95446251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_76
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 820
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457cca129471b3a4885115ddc7eb6754
+      internalID: 62562001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_77
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 820
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c8b3b4988b28540a84c54eb6b9d7fb
+      internalID: -432163062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_78
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 820
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcf8b3675e4fcd45b2a1c3f8b05b300
+      internalID: 1543950436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_79
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 820
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c5e875ea8c8e84c889cd444842acae
+      internalID: 919645751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e3a3538a7e054e8b04038c7652ef0
+      internalID: 577699855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_81
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 615
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693dae19bca8e424c8f80517b86a23e4
+      internalID: -429143630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_82
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 615
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15a37e8dbe354a49af936970b585254
+      internalID: 448278932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_83
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 615
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df8bd3584c39784c97e6d76d4b0b0dd
+      internalID: -1302621404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_84
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 615
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e217313eda5b4c046ab80975185fba8f
+      internalID: -162392124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811ac6501ed999b4ebb57e6041a92a84
+      internalID: 2122439019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 410
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5486bc3a074f342bf6b09405c0d2bb
+      internalID: 817510656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_87
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 410
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a5b63f0d8f6f144aa457d8852839ee
+      internalID: -1299972421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_88
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 410
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e9e9beb682b984594bd5dc88f20b48
+      internalID: -1517899175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_89
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 410
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf9c52303e428d439085957839ba124
+      internalID: -922324346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9dbdfe0374b914f83f5253c3b620c8
+      internalID: -1618313744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 205
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe011084eb2304b80ccad56c24b1ad
+      internalID: -1896792624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_92
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 205
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb396e4ad85e42478fe27083b0049b4
+      internalID: 521262726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_93
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 205
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515a971589500054e99e2a890937d934
+      internalID: 10182271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_94
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 205
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2b5a974a5f94e4186d32480b1e2b29
+      internalID: 1530648688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane gray 512 205_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78603bc0f3b414e489118211995f1e5d
+      internalID: -664552827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e9a65937c3c5f8a4698b52198d8fdbbe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      airplane gray 512 205_0: -430323342
+      airplane gray 512 205_1: -511371124
+      airplane gray 512 205_10: 1240787426
+      airplane gray 512 205_11: -1556165161
+      airplane gray 512 205_12: 1240710692
+      airplane gray 512 205_13: 40410241
+      airplane gray 512 205_14: 1577496019
+      airplane gray 512 205_15: -633958394
+      airplane gray 512 205_16: -432063904
+      airplane gray 512 205_17: 1521466048
+      airplane gray 512 205_18: -1050878918
+      airplane gray 512 205_19: 1025800245
+      airplane gray 512 205_2: 540706229
+      airplane gray 512 205_20: 1172514138
+      airplane gray 512 205_21: -657940852
+      airplane gray 512 205_22: -1023183279
+      airplane gray 512 205_23: 1155787850
+      airplane gray 512 205_24: -1215832416
+      airplane gray 512 205_25: -1847203172
+      airplane gray 512 205_26: -102347469
+      airplane gray 512 205_27: 2112349215
+      airplane gray 512 205_28: -324267862
+      airplane gray 512 205_29: 783587299
+      airplane gray 512 205_3: -619874964
+      airplane gray 512 205_30: 2132626981
+      airplane gray 512 205_31: 1070682507
+      airplane gray 512 205_32: 458269220
+      airplane gray 512 205_33: -1906118024
+      airplane gray 512 205_34: -703197319
+      airplane gray 512 205_35: -1768713226
+      airplane gray 512 205_36: -1110434863
+      airplane gray 512 205_37: 1307693036
+      airplane gray 512 205_38: -1178707314
+      airplane gray 512 205_39: -874489140
+      airplane gray 512 205_4: -156575764
+      airplane gray 512 205_40: -752671314
+      airplane gray 512 205_41: -1196762728
+      airplane gray 512 205_42: 1758677338
+      airplane gray 512 205_43: -589899788
+      airplane gray 512 205_44: -1148702756
+      airplane gray 512 205_45: -704766695
+      airplane gray 512 205_46: -1909675838
+      airplane gray 512 205_47: 2004934260
+      airplane gray 512 205_48: -160273459
+      airplane gray 512 205_49: 871213325
+      airplane gray 512 205_5: 982182718
+      airplane gray 512 205_50: -355723740
+      airplane gray 512 205_51: -95301234
+      airplane gray 512 205_52: 513974815
+      airplane gray 512 205_53: 1069129449
+      airplane gray 512 205_54: -1803049181
+      airplane gray 512 205_55: -513720583
+      airplane gray 512 205_56: -1648458719
+      airplane gray 512 205_57: 1962900332
+      airplane gray 512 205_58: 1375777428
+      airplane gray 512 205_59: 2002008923
+      airplane gray 512 205_6: -1007179578
+      airplane gray 512 205_60: -703756542
+      airplane gray 512 205_61: -425218562
+      airplane gray 512 205_62: 106801813
+      airplane gray 512 205_63: -656446848
+      airplane gray 512 205_64: 1682929004
+      airplane gray 512 205_65: -1261665534
+      airplane gray 512 205_66: 1852132150
+      airplane gray 512 205_67: -305392032
+      airplane gray 512 205_68: 754424777
+      airplane gray 512 205_69: -1347311252
+      airplane gray 512 205_7: 1675738077
+      airplane gray 512 205_70: -969917563
+      airplane gray 512 205_71: 350495705
+      airplane gray 512 205_72: 1209656627
+      airplane gray 512 205_73: -849238438
+      airplane gray 512 205_74: 2000719246
+      airplane gray 512 205_75: -95446251
+      airplane gray 512 205_76: 62562001
+      airplane gray 512 205_77: -432163062
+      airplane gray 512 205_78: 1543950436
+      airplane gray 512 205_79: 919645751
+      airplane gray 512 205_8: 586901605
+      airplane gray 512 205_80: 577699855
+      airplane gray 512 205_81: -429143630
+      airplane gray 512 205_82: 448278932
+      airplane gray 512 205_83: -1302621404
+      airplane gray 512 205_84: -162392124
+      airplane gray 512 205_85: 2122439019
+      airplane gray 512 205_86: 817510656
+      airplane gray 512 205_87: -1299972421
+      airplane gray 512 205_88: -1517899175
+      airplane gray 512 205_89: -922324346
+      airplane gray 512 205_9: 896248246
+      airplane gray 512 205_90: -1618313744
+      airplane gray 512 205_91: -1896792624
+      airplane gray 512 205_92: 521262726
+      airplane gray 512 205_93: 10182271
+      airplane gray 512 205_94: 1530648688
+      airplane gray 512 205_95: -664552827
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1411 @@
+fileFormatVersion: 2
+guid: b8f39de8749169a4abbda68f5d47490e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: giphy dance 350 255_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2805
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a6e873c3ba51b4c927f4d341515afb
+      internalID: 1630132793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2805
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bc6076e596ff5409ff7e6b99c833f2
+      internalID: -1964887727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2805
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0bc420858df8f40aa48f9f48795d59
+      internalID: -227900043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2805
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aad5b0f4f42f947a3e2fa03bcd2be0
+      internalID: -1428239424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_4
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2805
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fce33bb4b891c418466ecabcdda2c7
+      internalID: -1616108064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2550
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d15fbcdf5d15e4a831d10801544fae
+      internalID: 1538688800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_6
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2550
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee4d297d393ac849aec4746e59c84cc
+      internalID: -112288730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2550
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58866eeb743145c45ae0daa4a752b594
+      internalID: -1852553963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2550
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe3902dd385ada4fbfd4610d1101e6c
+      internalID: 1701314489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_9
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2550
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1806b9e2471aa4d41b4c088b3b120fc9
+      internalID: 1722294967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2295
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c288cc13f684f14aa0344023de63e8e
+      internalID: 30852431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2295
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb6005fda2dd8f4b992157237f4e31b
+      internalID: 833368235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_12
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2295
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08f898d5487c6345b2eefbdd380a17c
+      internalID: 286493261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_13
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2295
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb943167ff07e44588aa267b8d4716a
+      internalID: 908925136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2295
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1458bccf0cfcc142b4160f849d41a98
+      internalID: 2115728923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3089befd615e77d489621d8d8dd617a7
+      internalID: -469824007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2040
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a781c0a7e5d056740805c8d1551312fc
+      internalID: 1184077977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2040
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35917fa7afb8d64cb34a6eefc588e55
+      internalID: -541851336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_18
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2040
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e51cbfbaffc65439bb3c31b38a5b12
+      internalID: 1957912643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_19
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2040
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3d2047b2f081b4890872385ef2428e
+      internalID: 390467297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab9d6afa80dd6148881d512ffddcfaf
+      internalID: 118046482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1785
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfb996a067b29d4ca6c5dc7b681c769
+      internalID: 835320290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1785
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb613a4be000c894fa9390323f6d4a64
+      internalID: -1209606264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1785
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276f4a96ca62b1245ae8371969cb4af5
+      internalID: -655097063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_24
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1785
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18c363b7c0fb93498dad68c98f15caf
+      internalID: 1158486772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0864f7570ec799e408045bd082cb5f45
+      internalID: 751205576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1530
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71568f5075b43ab448f0c7875489f513
+      internalID: 1580557805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1530
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2064fbb26b9bb847b06808222e235fd
+      internalID: 1860550810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_28
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1530
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e48c3c5d6493e45ab2506d64d53aec
+      internalID: 1718797027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_29
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1530
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8d328fe28548a49b712cdfa61370c8
+      internalID: 138743590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1275
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10228200e0dfca84aae5c420d5dcd384
+      internalID: 16087284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1275
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb47a1f2d790c47438dd64948de1061a
+      internalID: -1126213719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_32
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1275
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691f95cce88be474f9fe4f113291aabf
+      internalID: 1803975072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_33
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1275
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dcd426bb34d8947a1511a4687e0d9c
+      internalID: -2016827254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_34
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1275
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5441222bf82154b9177e17c5ba894f
+      internalID: 864526405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f93e957e87c3874694febe0044f47b2
+      internalID: 1552262053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_36
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1020
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c643ab060465cfb46b9aca71420fa184
+      internalID: 980575062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_37
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1020
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54f42f53121562489dc1bfa6761a21f
+      internalID: 2131989902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_38
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1020
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e84e787ff315dd42bbcad46f7342182
+      internalID: -1032118446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_39
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1020
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ee4ff403ab8f94faa419ec277af5bc
+      internalID: 181318375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321459f8754eeca4689c5a8ff0e3658f
+      internalID: 9988433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 765
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fde44b88f080744887bfa348ad757fc
+      internalID: 1475658353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_42
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 765
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5091ad6538af14db6e0389ebe17de6
+      internalID: -664936392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_43
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 765
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607f8ee2a609e3e4d9cc46861741374d
+      internalID: -1447102396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_44
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 765
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df0aa75f5aba0e4eba0ffa4ddf91f78
+      internalID: 797963740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e6675217a65b4eb12e0b747985d02
+      internalID: -1024832229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_46
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 510
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde19c37b45941c4cbb6af4503df4048
+      internalID: 1605035342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 510
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ffe5c61b4e5ee43854fe4ea0517360
+      internalID: -926953900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_48
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 510
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725efc76971c3cb418930eb5e5fcf9a2
+      internalID: -985071359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_49
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 510
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a8afcb941fe184fb02b7d517731185
+      internalID: 550341180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e77bca0b68c2e4bb167dd5c9479777
+      internalID: 707180107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_51
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 255
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b054486c79554cb90a8ab52b3115e
+      internalID: 1179632000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_52
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 255
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65636b146dec43c458ae4c4427694207
+      internalID: 1018040443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_53
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 255
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbd4eb55d664df488f22653148b20fc
+      internalID: -2083572007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_54
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 255
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe32cacdbba67f489f7a02d4bb3d5cf
+      internalID: -1837646686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcf25d31cc60b644ae4578edc9dda0e
+      internalID: -632723511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_56
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885882fee39c5454a9b1dbee1521ad32
+      internalID: -1497963227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giphy dance 350 255_57
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1584a831e8339f459c82b1044dcbe8d
+      internalID: -1912141240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dc8e099291c591a4bb16c21973b9a257
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      giphy dance 350 255_0: 1630132793
+      giphy dance 350 255_1: -1964887727
+      giphy dance 350 255_10: 30852431
+      giphy dance 350 255_11: 833368235
+      giphy dance 350 255_12: 286493261
+      giphy dance 350 255_13: 908925136
+      giphy dance 350 255_14: 2115728923
+      giphy dance 350 255_15: -469824007
+      giphy dance 350 255_16: 1184077977
+      giphy dance 350 255_17: -541851336
+      giphy dance 350 255_18: 1957912643
+      giphy dance 350 255_19: 390467297
+      giphy dance 350 255_2: -227900043
+      giphy dance 350 255_20: 118046482
+      giphy dance 350 255_21: 835320290
+      giphy dance 350 255_22: -1209606264
+      giphy dance 350 255_23: -655097063
+      giphy dance 350 255_24: 1158486772
+      giphy dance 350 255_25: 751205576
+      giphy dance 350 255_26: 1580557805
+      giphy dance 350 255_27: 1860550810
+      giphy dance 350 255_28: 1718797027
+      giphy dance 350 255_29: 138743590
+      giphy dance 350 255_3: -1428239424
+      giphy dance 350 255_30: 16087284
+      giphy dance 350 255_31: -1126213719
+      giphy dance 350 255_32: 1803975072
+      giphy dance 350 255_33: -2016827254
+      giphy dance 350 255_34: 864526405
+      giphy dance 350 255_35: 1552262053
+      giphy dance 350 255_36: 980575062
+      giphy dance 350 255_37: 2131989902
+      giphy dance 350 255_38: -1032118446
+      giphy dance 350 255_39: 181318375
+      giphy dance 350 255_4: -1616108064
+      giphy dance 350 255_40: 9988433
+      giphy dance 350 255_41: 1475658353
+      giphy dance 350 255_42: -664936392
+      giphy dance 350 255_43: -1447102396
+      giphy dance 350 255_44: 797963740
+      giphy dance 350 255_45: -1024832229
+      giphy dance 350 255_46: 1605035342
+      giphy dance 350 255_47: -926953900
+      giphy dance 350 255_48: -985071359
+      giphy dance 350 255_49: 550341180
+      giphy dance 350 255_5: 1538688800
+      giphy dance 350 255_50: 707180107
+      giphy dance 350 255_51: 1179632000
+      giphy dance 350 255_52: 1018040443
+      giphy dance 350 255_53: -2083572007
+      giphy dance 350 255_54: -1837646686
+      giphy dance 350 255_55: -632723511
+      giphy dance 350 255_56: -1497963227
+      giphy dance 350 255_57: -1912141240
+      giphy dance 350 255_6: -112288730
+      giphy dance 350 255_7: -1852553963
+      giphy dance 350 255_8: 1701314489
+      giphy dance 350 255_9: 1722294967
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: 4b25ae5d8fb31456b829bf7fc9e24ab0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1710
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a7f91dc77c4d0d82ec13a390dab57
+      internalID: 212914015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_1
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1710
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a92892ea43d45db9a88ada149b3696
+      internalID: 1895205716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_2
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1710
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7b3324366d04c74a4a9b3e7d4a1608
+      internalID: 631022362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_3
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1710
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794f8bc78bb804c90a4585747131e5ff
+      internalID: 2094654972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1539
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363a8506230ad4cd4b64445560cfb5a1
+      internalID: 64549319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_5
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1539
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c080accc82443cfa2937507e65f2d7
+      internalID: -97904638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_6
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1539
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8074c30fa9a48d2abffe353164eb10
+      internalID: 551278978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_7
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1539
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4898253367c8a4c41b6f9c18509f4fe2
+      internalID: -718187030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1368
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb8e07b65af943f3b6dfa76097a059b
+      internalID: -1701478932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_9
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1368
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a56ca6107be443dac03e686e4269a1
+      internalID: -60609921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_10
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1368
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b886527478ef4d2092b83523da3210c
+      internalID: 1628132238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_11
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1368
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da61b0ae1a2a4ece82a8f5e6cbb1f12
+      internalID: -155229613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1197
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a677bbd1db9644b9d9a2303361951565
+      internalID: -1453246240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_13
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1197
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bbdc322f55b4860abf626961d015de
+      internalID: -664351037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_14
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1197
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693078a65ce4a49529bb4dcf0e3b5719
+      internalID: -190188471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_15
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1197
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff21192db5fa4971933d1ad0cef89c4
+      internalID: 1741961206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1026
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b6c44268e7401db6e8e659c32d03f
+      internalID: 1877815172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_17
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1026
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe588fef6560c40688be34a2f09bc2e7
+      internalID: 85716906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_18
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1026
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4815792d52a664fb497818e11376c1d7
+      internalID: -1886841340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_19
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1026
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049e7b865bb7c4116aa272a53f3d1bd2
+      internalID: 984055064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa225c3ba5384ef8b242fa801e87e8c
+      internalID: 2019883118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_21
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 855
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98289c1e04144bef846326e81a490a7
+      internalID: -188390945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_22
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 855
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf0ec7370bb74faa950659ef148cee0
+      internalID: 1270410256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_23
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 855
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e87fcd429774ac58a6c7e49cf60388
+      internalID: -1655408914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6c4122b9f3d4bb3b1e4df4f451ee36
+      internalID: 380070539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_25
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 684
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b484c9f23ed7a4a20a94ba5430ec1384
+      internalID: -153641105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_26
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 684
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd82661a24ed4899823cafcd3cbd3ea
+      internalID: 234073385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_27
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 684
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e010f929d418446b88b4a20e7530c5c
+      internalID: -1067758872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd524fcbcc3f4e9183c47db648b1104
+      internalID: -1602474961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_29
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 513
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9e80b7fc7eb4ac6acd86011ae6f827
+      internalID: -1667142849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_30
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 513
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a103072bd115d4640b49ddcbe934e010
+      internalID: -2040132215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_31
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 513
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2203830d88f482dab93ff9f347601b
+      internalID: 54952370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fb2f6bb0a544a6684248e0f4dd4fe7
+      internalID: -352943920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_33
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 342
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b9a1be6f2094215931ea02e108b488
+      internalID: -221123776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_34
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 342
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c020434d050bb4ec69e14aadfe8c4454
+      internalID: 1139228589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_35
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 342
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4dae78ddb2943b8b5785cfdeaa9051
+      internalID: -1508448240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8abadfb02eb147b6ac6e19c33ff0701
+      internalID: -1495449967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_37
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 171
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d0839034722484eaf625bb846e96d9
+      internalID: -1121836312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_38
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 171
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13731ed10bd54f31a4e26abaa35c784
+      internalID: -1224818252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_39
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 171
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdbee8d1f98c4948b57ab950536a45e
+      internalID: -1349738684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LitKit_zine_gifslideshow_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 856
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74bb9b3cd3a47abb5e4212d5a8f678
+      internalID: 1018754632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ddd7461e5febc441ca97198f30582c26
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LitKit_zine_gifslideshow_0: 212914015
+      LitKit_zine_gifslideshow_1: 1895205716
+      LitKit_zine_gifslideshow_10: 1628132238
+      LitKit_zine_gifslideshow_11: -155229613
+      LitKit_zine_gifslideshow_12: -1453246240
+      LitKit_zine_gifslideshow_13: -664351037
+      LitKit_zine_gifslideshow_14: -190188471
+      LitKit_zine_gifslideshow_15: 1741961206
+      LitKit_zine_gifslideshow_16: 1877815172
+      LitKit_zine_gifslideshow_17: 85716906
+      LitKit_zine_gifslideshow_18: -1886841340
+      LitKit_zine_gifslideshow_19: 984055064
+      LitKit_zine_gifslideshow_2: 631022362
+      LitKit_zine_gifslideshow_20: 2019883118
+      LitKit_zine_gifslideshow_21: -188390945
+      LitKit_zine_gifslideshow_22: 1270410256
+      LitKit_zine_gifslideshow_23: -1655408914
+      LitKit_zine_gifslideshow_24: 380070539
+      LitKit_zine_gifslideshow_25: -153641105
+      LitKit_zine_gifslideshow_26: 234073385
+      LitKit_zine_gifslideshow_27: -1067758872
+      LitKit_zine_gifslideshow_28: -1602474961
+      LitKit_zine_gifslideshow_29: -1667142849
+      LitKit_zine_gifslideshow_3: 2094654972
+      LitKit_zine_gifslideshow_30: -2040132215
+      LitKit_zine_gifslideshow_31: 54952370
+      LitKit_zine_gifslideshow_32: -352943920
+      LitKit_zine_gifslideshow_33: -221123776
+      LitKit_zine_gifslideshow_34: 1139228589
+      LitKit_zine_gifslideshow_35: -1508448240
+      LitKit_zine_gifslideshow_36: -1495449967
+      LitKit_zine_gifslideshow_37: -1121836312
+      LitKit_zine_gifslideshow_38: -1224818252
+      LitKit_zine_gifslideshow_39: -1349738684
+      LitKit_zine_gifslideshow_4: 64549319
+      LitKit_zine_gifslideshow_40: 1018754632
+      LitKit_zine_gifslideshow_41: -1874685520
+      LitKit_zine_gifslideshow_42: 124397964
+      LitKit_zine_gifslideshow_43: -245674812
+      LitKit_zine_gifslideshow_5: -97904638
+      LitKit_zine_gifslideshow_6: 551278978
+      LitKit_zine_gifslideshow_7: -718187030
+      LitKit_zine_gifslideshow_8: -1701478932
+      LitKit_zine_gifslideshow_9: -60609921
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

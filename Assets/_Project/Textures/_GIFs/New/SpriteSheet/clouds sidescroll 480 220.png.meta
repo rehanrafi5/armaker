@@ -1,0 +1,1785 @@
+fileFormatVersion: 2
+guid: 56dec4df83b61174fa655770a213b5d4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48f97ddc5ba0b34c8bcf7c8075870bc
+      internalID: 901163881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3080
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929fc54554a84284cac7f2056a52fba6
+      internalID: 1701319850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3080
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569b072c4b711e8499cf39145d1807f2
+      internalID: 1860167613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3080
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308fa19de25698a449866c4b11439d87
+      internalID: 1178865148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3080
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2508f89e1918747835581d546a6681
+      internalID: -1424277017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2860
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35174e9b396dbfa409732f934d04cbd2
+      internalID: 671778464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2860
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3b9cc24ca26df47b4a9970e6101f15
+      internalID: 794591422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2860
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a40dc487c73e347a82ca50aa961347
+      internalID: 1362354636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2860
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e18fd3883de80d4399b9ed9f820d9fb
+      internalID: 2093153864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2860
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c139375c00a4fd428fa0494395bf08e
+      internalID: 2122462224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2640
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4549fa2316ff6ef4191af6e8faf27914
+      internalID: 991545503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2640
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2a8207371e2ef4b924e29eec980cba
+      internalID: 950946876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2640
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e829f55cd362bbd4d82dbdcc10395a21
+      internalID: -448756837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2640
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda84e03da2a5484481b6c7b2aab605b
+      internalID: -585660713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2640
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf624e6d8f922f745a725843ee7ee25d
+      internalID: 32156360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcdcfffe4a076442aebfc38d2b93938
+      internalID: -1965094643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2420
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76e1f11a9e95e84fac76897ea228d87
+      internalID: 1902888198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2420
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2feb2366ffd6a41479465b3fd4924a3b
+      internalID: 2101731235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2420
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40b6cdef1b98e347b7f8aa6b682bcc2
+      internalID: -254494092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2420
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a96e146279da684f83416054821a286
+      internalID: -1414198243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d389d7b40d7a3545a77d3df1b34765d
+      internalID: -849420743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2200
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b270f2a4494326044bbf829c25530722
+      internalID: -31884131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2200
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c701553918cba5a4fb3dce29093194c1
+      internalID: -725338930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_23
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2200
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7e4edb5a3aaab49abb4be6f226cc75
+      internalID: -1987546785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_24
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2200
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ade02a16085774429ae06e8cfe102d8
+      internalID: -95952402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1980
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f323a5109e7962a44bf381bd3fb4898d
+      internalID: -866563811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1980
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76624bc3b1c6899479232849d806d67a
+      internalID: -1024596410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_27
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1980
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c4dba3d030c204fb7d6a36ae044db4
+      internalID: 919845990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_28
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1980
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99f8e728887e46438ab8936e766dd64
+      internalID: -12469213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1980
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a19348655fe8ad4d923ecf465f3350c
+      internalID: -142377850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1760
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecddce6e293bd0944bf75a944c2b3c49
+      internalID: 495224420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1760
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf01d88d9d20594cbe5a90b4dddadd7
+      internalID: 344966136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1760
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c716d8416e5dd914492855f50ae93890
+      internalID: 819188254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_33
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1760
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357fa6272b802064c872334960c67f2a
+      internalID: 1795948655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_34
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1760
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afcd95d99188a643b9477ce80b1fb4a
+      internalID: 1356065899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead365d7c50945b43a2a41998400166f
+      internalID: 1510782949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1540
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c800635ee21010a4493d6bd2f25dbed0
+      internalID: 1181161897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_37
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1540
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515931d0372e2c64cab78d16191b132b
+      internalID: -295710641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1540
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a881238078da62447836443be00bf2de
+      internalID: 25035008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_39
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1540
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1c5bb8998dc4d499e6a0a42f7f34b0
+      internalID: 1735912905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d429ba9f4278c1f48acbd1e0c744436c
+      internalID: -1039289295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1320
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885a9e5c91c1ad143968bd014e506e1e
+      internalID: -1122236238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_42
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1320
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41f9842cd15f684fad608b91d1cba13
+      internalID: 1577005234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_43
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1320
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c8a672c66a61949b5309fdee2b6157
+      internalID: -2087318324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1320
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2149e6ee4061ab429715c39782fe949
+      internalID: -431358348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15e4512f581f4748be6a98aab5aaacb
+      internalID: 1353216612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1100
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e5dc62ac0d6bd42a4a9b03440c6ef6
+      internalID: -961547977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1100
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9243ba520534f40851b6946cae9a11
+      internalID: 1176181411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_48
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1100
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94acf0e57680d4745aee18a95a32f549
+      internalID: -910619034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_49
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1100
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ab51b3125dada4e8a4f8b3df44ebba
+      internalID: 117783432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d89fdf0ea55f554ab315293d025d998
+      internalID: -1297345137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 880
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b38a29b91a4c640af6524d7c5954ec
+      internalID: 289534366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_52
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 880
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b7f85944ac81d47bbe52b1ab47defe
+      internalID: 1883644055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_53
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 880
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7bfd3e1f97ff444bf1be2d6e570779
+      internalID: -562775612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_54
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 880
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebbe4602a012e143ab4639ce2028aac
+      internalID: 1006386036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf0367f68182624c9d92d3bdff1daf6
+      internalID: 493771440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 660
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5a1699f59d66742a6054f8799a931d
+      internalID: -389847663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 660
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8b5ec801d42eb41a8182a8c5902417
+      internalID: -890889772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_58
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 660
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c41c9c2cb678b41baba71a2fa00600
+      internalID: 1851926218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_59
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 660
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd44fcf175b24940a273df04357722e
+      internalID: -776400018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8f85a343f647e46a029a76b045d352
+      internalID: 1027448558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 440
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550a7a2603279404389d770de691005d
+      internalID: -642198536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_62
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 440
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197a9dd9fe5572649996e5afd9def1f6
+      internalID: 449319658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_63
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 440
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71028d9e4d532a34c92a42d85ae00a42
+      internalID: -1588526458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_64
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 440
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dfa657e8774004eac0af02fc294bfe
+      internalID: -421797947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b757ddf325763478884b1b3b187743
+      internalID: -1852451537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_66
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 220
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806287a87dbdf9d4c87803eeb117579c
+      internalID: 293249832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_67
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 220
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4981453341022a468fdafc4c9e0a3ac
+      internalID: 27754952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_68
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 220
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9320d65c2e9d240b1e417ea1790de2
+      internalID: 2137318683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_69
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 220
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aac0ee255b7096499e098df45fce746
+      internalID: -1225011581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2d1370ba4ccbd4590d638f59c7336c
+      internalID: -2024214962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48568bb382d3ef7468e900d01498c0a5
+      internalID: -1457537501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_72
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936550d1ad023b24e85665c91a1d13ef
+      internalID: -1289208392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_73
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eb106bcb6f14b458ad7ebf310688cb
+      internalID: 481293507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidescroll clouds 480 220_74
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 480
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12bfcd27811e241a1125ae70165073
+      internalID: 754648428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b5ba7100ca61d274c96789c099b915c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sidescroll clouds 480 220_0: 901163881
+      sidescroll clouds 480 220_1: 1701319850
+      sidescroll clouds 480 220_10: 991545503
+      sidescroll clouds 480 220_11: 950946876
+      sidescroll clouds 480 220_12: -448756837
+      sidescroll clouds 480 220_13: -585660713
+      sidescroll clouds 480 220_14: 32156360
+      sidescroll clouds 480 220_15: -1965094643
+      sidescroll clouds 480 220_16: 1902888198
+      sidescroll clouds 480 220_17: 2101731235
+      sidescroll clouds 480 220_18: -254494092
+      sidescroll clouds 480 220_19: -1414198243
+      sidescroll clouds 480 220_2: 1860167613
+      sidescroll clouds 480 220_20: -849420743
+      sidescroll clouds 480 220_21: -31884131
+      sidescroll clouds 480 220_22: -725338930
+      sidescroll clouds 480 220_23: -1987546785
+      sidescroll clouds 480 220_24: -95952402
+      sidescroll clouds 480 220_25: -866563811
+      sidescroll clouds 480 220_26: -1024596410
+      sidescroll clouds 480 220_27: 919845990
+      sidescroll clouds 480 220_28: -12469213
+      sidescroll clouds 480 220_29: -142377850
+      sidescroll clouds 480 220_3: 1178865148
+      sidescroll clouds 480 220_30: 495224420
+      sidescroll clouds 480 220_31: 344966136
+      sidescroll clouds 480 220_32: 819188254
+      sidescroll clouds 480 220_33: 1795948655
+      sidescroll clouds 480 220_34: 1356065899
+      sidescroll clouds 480 220_35: 1510782949
+      sidescroll clouds 480 220_36: 1181161897
+      sidescroll clouds 480 220_37: -295710641
+      sidescroll clouds 480 220_38: 25035008
+      sidescroll clouds 480 220_39: 1735912905
+      sidescroll clouds 480 220_4: -1424277017
+      sidescroll clouds 480 220_40: -1039289295
+      sidescroll clouds 480 220_41: -1122236238
+      sidescroll clouds 480 220_42: 1577005234
+      sidescroll clouds 480 220_43: -2087318324
+      sidescroll clouds 480 220_44: -431358348
+      sidescroll clouds 480 220_45: 1353216612
+      sidescroll clouds 480 220_46: -961547977
+      sidescroll clouds 480 220_47: 1176181411
+      sidescroll clouds 480 220_48: -910619034
+      sidescroll clouds 480 220_49: 117783432
+      sidescroll clouds 480 220_5: 671778464
+      sidescroll clouds 480 220_50: -1297345137
+      sidescroll clouds 480 220_51: 289534366
+      sidescroll clouds 480 220_52: 1883644055
+      sidescroll clouds 480 220_53: -562775612
+      sidescroll clouds 480 220_54: 1006386036
+      sidescroll clouds 480 220_55: 493771440
+      sidescroll clouds 480 220_56: -389847663
+      sidescroll clouds 480 220_57: -890889772
+      sidescroll clouds 480 220_58: 1851926218
+      sidescroll clouds 480 220_59: -776400018
+      sidescroll clouds 480 220_6: 794591422
+      sidescroll clouds 480 220_60: 1027448558
+      sidescroll clouds 480 220_61: -642198536
+      sidescroll clouds 480 220_62: 449319658
+      sidescroll clouds 480 220_63: -1588526458
+      sidescroll clouds 480 220_64: -421797947
+      sidescroll clouds 480 220_65: -1852451537
+      sidescroll clouds 480 220_66: 293249832
+      sidescroll clouds 480 220_67: 27754952
+      sidescroll clouds 480 220_68: 2137318683
+      sidescroll clouds 480 220_69: -1225011581
+      sidescroll clouds 480 220_7: 1362354636
+      sidescroll clouds 480 220_70: -2024214962
+      sidescroll clouds 480 220_71: -1457537501
+      sidescroll clouds 480 220_72: -1289208392
+      sidescroll clouds 480 220_73: 481293507
+      sidescroll clouds 480 220_74: 754648428
+      sidescroll clouds 480 220_8: 2093153864
+      sidescroll clouds 480 220_9: 2122462224
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

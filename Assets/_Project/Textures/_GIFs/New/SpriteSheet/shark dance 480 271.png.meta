@@ -1,0 +1,1257 @@
+fileFormatVersion: 2
+guid: d881dd014647b534a9f4721819ce1ab5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shark dance 480 271_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2710
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c32510409af3345b05426bf14549b0
+      internalID: -744428079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2710
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fcfd876f2297644909f96998371c7e
+      internalID: -1393285799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2710
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3575b5f51d4450843809cacacb6cea2d
+      internalID: 1779019765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2710
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe2311f41a431d43b9a5d235c39804f
+      internalID: 1223370164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2710
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d3a84d9d5dca046b47ad1b46fd7dfa
+      internalID: -118915918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2439
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5e2c677632ed441af2e249a22f4a07
+      internalID: -1464969780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2439
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658322c0bc114048a95105632508681
+      internalID: -619487109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2439
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922f52fd4d385f44ea9d1d87cdca8db0
+      internalID: 596631643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2439
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20a0eace169c7949971df873505ad45
+      internalID: 1932304019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2439
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe0b7098827924682577b274e452fd
+      internalID: 1082430202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2168
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f318604c4cf333b489b346f47d14c7d2
+      internalID: 785773216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2168
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdacf4adf0e76d040a2a8bdd4d0b6f4f
+      internalID: 810961903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2168
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a4586b8e62496429768d654d30c20a
+      internalID: 245128115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2168
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f25bfc05654c77448c4c10b14845dd6
+      internalID: -1082742790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2168
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9d322ddab23e6419d82f625b7020ce
+      internalID: -454688659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1897
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44db09cda842e654a9c9fdc9221ced92
+      internalID: -300781970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1897
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716594da0a062874c93adff6583f304f
+      internalID: -1975128206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1897
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dbabf18f850804f9311289025ac24d
+      internalID: 249312232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1897
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb73c68b456de794583c3ab0f04e4098
+      internalID: 58696489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1897
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08abe1a339b3d294fb3ca61b0a4b518e
+      internalID: -492984952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1626
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4597b0473af15e4fae7e26fe8711def
+      internalID: 161824840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1626
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077b569fdefef8848a059808eff58483
+      internalID: 562958371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1626
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20de0bf51816ff84c95ef872844ce075
+      internalID: 84467247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_23
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1626
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fccefbbf9502f45b9f1b97a824645b
+      internalID: 1988809914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_24
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1626
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a42da5f2ec2f4d8264867531f6afb
+      internalID: 421849179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1355
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed65cf01d79b1b4f8fd69e9f8393ac1
+      internalID: 606812092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1355
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274f006e95d5a814da01004ccf01ceca
+      internalID: 1543758702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_27
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1355
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e0a6a22d29ffe40a939b0288df269a
+      internalID: -1742708261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_28
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1355
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bac8c1ba8589704b9af145339d355cb
+      internalID: -894937653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1355
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9a42c91adcac64097b1eaea8f417d0
+      internalID: -631653183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1084
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8bb923994a2d844ad0da9c9d92dba5
+      internalID: 1293444197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1084
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b672fc77b7f934dac684e814dc9a38
+      internalID: 1870490663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1084
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68455440cffeb7c459aba22af58b2e9f
+      internalID: 1231966028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_33
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1084
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ff442a1f644794792a265467744afd
+      internalID: 1605603523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_34
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1084
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337d4221f8c84c94d8f120d9ed6e50a8
+      internalID: -1147111697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f497fca171dc4ca9d19a04ab67c8c
+      internalID: -908415559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 813
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd6813a195a2c446903de4040ac8498
+      internalID: 716657458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_37
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 813
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13928be68676e54db710a882fbf341b
+      internalID: 1408624900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 813
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add9a7f494f8b064db7a8382056a67ee
+      internalID: -379072662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_39
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 813
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35f4cf1149ccd249871a0bea60c75d7
+      internalID: 2026524128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836b21e3702233d4fb3c92595329d98a
+      internalID: 1754822985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 542
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fafe637a4d9e8b4e9e180ef7e4446e8
+      internalID: 1489750595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_42
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 542
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c90b64ff163c864e85c0d7e61604b2a
+      internalID: -1545091433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_43
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 542
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6add65fe153fbd04bad068b3e7728531
+      internalID: -727342266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 542
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45855b7a6fa155048a28eeb4e6039632
+      internalID: 1934969172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4663a485b6c3e94ea45d5b085b18a6d
+      internalID: 45701177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 271
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193aea063abc5ab45a128a4d8c39abb6
+      internalID: -1705039953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 271
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615df671f27afc548a3062eb68cd5561
+      internalID: 1486996311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_48
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 271
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2ec4a109a6d774e9cad63cbcff3a94
+      internalID: -1392996914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_49
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 271
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fced4a3d8d07cd479eccc8bfcd389ea
+      internalID: -795938673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark dance 480 271_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e872ce2bc53c54db43b8af8b82c5f1
+      internalID: 1639984677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 348b8b742d6f16744b3e9d6f4b4a49b3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      shark dance 480 271_0: -744428079
+      shark dance 480 271_1: -1393285799
+      shark dance 480 271_10: 785773216
+      shark dance 480 271_11: 810961903
+      shark dance 480 271_12: 245128115
+      shark dance 480 271_13: -1082742790
+      shark dance 480 271_14: -454688659
+      shark dance 480 271_15: -300781970
+      shark dance 480 271_16: -1975128206
+      shark dance 480 271_17: 249312232
+      shark dance 480 271_18: 58696489
+      shark dance 480 271_19: -492984952
+      shark dance 480 271_2: 1779019765
+      shark dance 480 271_20: 161824840
+      shark dance 480 271_21: 562958371
+      shark dance 480 271_22: 84467247
+      shark dance 480 271_23: 1988809914
+      shark dance 480 271_24: 421849179
+      shark dance 480 271_25: 606812092
+      shark dance 480 271_26: 1543758702
+      shark dance 480 271_27: -1742708261
+      shark dance 480 271_28: -894937653
+      shark dance 480 271_29: -631653183
+      shark dance 480 271_3: 1223370164
+      shark dance 480 271_30: 1293444197
+      shark dance 480 271_31: 1870490663
+      shark dance 480 271_32: 1231966028
+      shark dance 480 271_33: 1605603523
+      shark dance 480 271_34: -1147111697
+      shark dance 480 271_35: -908415559
+      shark dance 480 271_36: 716657458
+      shark dance 480 271_37: 1408624900
+      shark dance 480 271_38: -379072662
+      shark dance 480 271_39: 2026524128
+      shark dance 480 271_4: -118915918
+      shark dance 480 271_40: 1754822985
+      shark dance 480 271_41: 1489750595
+      shark dance 480 271_42: -1545091433
+      shark dance 480 271_43: -727342266
+      shark dance 480 271_44: 1934969172
+      shark dance 480 271_45: 45701177
+      shark dance 480 271_46: -1705039953
+      shark dance 480 271_47: 1486996311
+      shark dance 480 271_48: -1392996914
+      shark dance 480 271_49: -795938673
+      shark dance 480 271_5: -1464969780
+      shark dance 480 271_50: 1639984677
+      shark dance 480 271_6: -619487109
+      shark dance 480 271_7: 596631643
+      shark dance 480 271_8: 1932304019
+      shark dance 480 271_9: 1082430202
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

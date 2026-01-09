@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 9569dcf33afd449dcae1cffa14fcee06
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gameanictiona_activation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1876
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe86cae4dd89443028cfd0d406ea05b2
+      internalID: 849068276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1876
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1eaff7433da49ee92215b85fbc3dc1
+      internalID: 1273228803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_2
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1876
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2714a2997864298b34f47d6ddd675a
+      internalID: -166307241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_3
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1876
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b060823ed1a0c4cdea83352eded05178
+      internalID: 972628121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_4
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1876
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad5777e66d384e5cb0c7f3d5295b5ae
+      internalID: -953890530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1608
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34ab21b03ae047b196eb01eab5630a8
+      internalID: -757971723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_6
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1608
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62a302cc5d0b4d56b763610e2ade910
+      internalID: 1282856318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_7
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1608
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499151d1c2c3741ab9a8b202098f163e
+      internalID: 1336466919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_8
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1608
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a3ba9a8d73245519c87b6fef9d92f1
+      internalID: -502904819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_9
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1608
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a16cf6a0719c4f5db01d659e252d16b
+      internalID: -1820111793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1340
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d086015870884054a4c94ea1d94b8e3
+      internalID: -1292056359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_11
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1340
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ca07efc44d847b8810cf838de65eb0
+      internalID: 1626807760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_12
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1340
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea49d47a48f3548a0a224bd7a99a4ebf
+      internalID: 426363032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_13
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1340
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9911a8d28c61a45718eda04219f094a7
+      internalID: 1836169625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_14
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1340
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc2dfc4918304d858f17762e1dccdd4
+      internalID: -643577557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1072
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affab5493aab6432f9ae1bcc539e4933
+      internalID: -226786833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_16
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1072
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d596343bb8db643219a44eac53f22d8f
+      internalID: -809021078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_17
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1072
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa96ad1b57f74779b038147099772ad
+      internalID: 259008335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_18
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1072
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec13754d0dda40b6810de8e05e71d55
+      internalID: 1867234076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_19
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1072
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72728c97ffff2446cbec89f10f8d788a
+      internalID: -643193192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260462bfe1d3044d49c822e8d09da920
+      internalID: 1646975501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 804
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9c15f80a4de4b5d8ddb84df4e8a4d2
+      internalID: 302055017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_22
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 804
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232d1e673422b45d2aae61992c26f043
+      internalID: -649494679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_23
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 804
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e5259672984305915bed7007ae9cf
+      internalID: 72189464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_24
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 804
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a91197f044974f27af16d2abf84ce08
+      internalID: -1345071305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebf98fec5aa84e63a4e6f820bec5c2b
+      internalID: -307402622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_26
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 536
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49970018e5a4344e195a62dc9f97aa5f
+      internalID: -1344344098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_27
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 536
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0d2dc33bcc84bc7a5adb9bb1c7cac0
+      internalID: -1696237257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_28
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 536
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ee02d1c562e49ee95bf43c578bc2cb
+      internalID: 1954988424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_29
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 536
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bf9c79074e24ef0bdcbd5f586236df
+      internalID: 588342821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b58f72ef322e42e88fabef268f340cf
+      internalID: -1811884691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_31
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 268
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178c769ff757c4b8cb368c4b7bc29355
+      internalID: -1956452583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_32
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 268
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c505ca058ac044f658b6dd03fc35ee65
+      internalID: -588275022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_33
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 268
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4403e869d2074639acd088bf3d5113d
+      internalID: 373876544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_34
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 268
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11216e7716fc04925a203f0af8c6882d
+      internalID: -1841942374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67915fa1aca8b46eeb31c1fb310ef396
+      internalID: 336875073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_36
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 0
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11eee8454d2a43829f825df7018368f
+      internalID: -1301627550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_37
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 0
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6496e5dd36e534fdc8156797970b9cc7
+      internalID: -1168011592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_38
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 0
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba205268116534b1289b32216d7be8f9
+      internalID: -408096382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameanictiona_activation_39
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 0
+        width: 478
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68eb85823b1e4054b82790ee707a2a7
+      internalID: 692337585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bfbdad5a819104bfa9f956aa056fc69c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gameanictiona_activation_0: 849068276
+      gameanictiona_activation_1: 1273228803
+      gameanictiona_activation_10: -1292056359
+      gameanictiona_activation_11: 1626807760
+      gameanictiona_activation_12: 426363032
+      gameanictiona_activation_13: 1836169625
+      gameanictiona_activation_14: -643577557
+      gameanictiona_activation_15: -226786833
+      gameanictiona_activation_16: -809021078
+      gameanictiona_activation_17: 259008335
+      gameanictiona_activation_18: 1867234076
+      gameanictiona_activation_19: -643193192
+      gameanictiona_activation_2: -166307241
+      gameanictiona_activation_20: 1646975501
+      gameanictiona_activation_21: 302055017
+      gameanictiona_activation_22: -649494679
+      gameanictiona_activation_23: 72189464
+      gameanictiona_activation_24: -1345071305
+      gameanictiona_activation_25: -307402622
+      gameanictiona_activation_26: -1344344098
+      gameanictiona_activation_27: -1696237257
+      gameanictiona_activation_28: 1954988424
+      gameanictiona_activation_29: 588342821
+      gameanictiona_activation_3: 972628121
+      gameanictiona_activation_30: -1811884691
+      gameanictiona_activation_31: -1956452583
+      gameanictiona_activation_32: -588275022
+      gameanictiona_activation_33: 373876544
+      gameanictiona_activation_34: -1841942374
+      gameanictiona_activation_35: 336875073
+      gameanictiona_activation_36: -1301627550
+      gameanictiona_activation_37: -1168011592
+      gameanictiona_activation_38: -408096382
+      gameanictiona_activation_39: 692337585
+      gameanictiona_activation_4: -953890530
+      gameanictiona_activation_5: -757971723
+      gameanictiona_activation_6: 1282856318
+      gameanictiona_activation_7: 1336466919
+      gameanictiona_activation_8: -502904819
+      gameanictiona_activation_9: -1820111793
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

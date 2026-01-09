@@ -1,0 +1,1345 @@
+fileFormatVersion: 2
+guid: d014f06f4b88f4b4b9265cc6024527b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fighter jet 1070 544_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5440
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e2fa3a0274d0340a61d69b50ca98c3
+      internalID: 830233962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_1
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 5440
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983381527d5048c478111b38696a5ec8
+      internalID: 1600947087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_2
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 5440
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42cd62ea0bded348b3fad7460302e54
+      internalID: -1918654168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_3
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 5440
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3a6dd2cc6bbc04491306de7be979a0
+      internalID: -1418690692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_4
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 5440
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85324e1e36425a34e91f9c878ffa08a1
+      internalID: 1504810549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4896
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d9f6143411ac84592237c7f600c3a9
+      internalID: -355018807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_6
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 4896
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2f83b4e2fd6284e8c05ae3d2d6f278
+      internalID: -1576454757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_7
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 4896
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a086fa7f496a0aa4cacbbaf4f97ce29f
+      internalID: 918183061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_8
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4896
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db842b1357f0c1540b0a26b9b8097310
+      internalID: 1907292631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_9
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 4896
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda4aa03b656b034b8c974d5b9366584
+      internalID: 141941185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4352
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e96002353669b479e98df142dccb60
+      internalID: -1644958230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_11
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 4352
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19871c02d65c38045b31264224cc50a1
+      internalID: -2091380413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_12
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 4352
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1fcd53ad03a304896ad38dbc9ed11c
+      internalID: 212710393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_13
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4352
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50809252ea3f2743bfb478e154a3e6d
+      internalID: 1389572598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_14
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 4352
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eba6f14793e0743a82e6860bf403b5
+      internalID: 1624330420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3808
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95800fd8650ef9f4da909b02109380b3
+      internalID: -517761453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_16
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 3808
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50bc2b63684b2f4ca21e0aaaa9b5840
+      internalID: -334308406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_17
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3808
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea5fc4cc775adc439cf0ce150813c48
+      internalID: -656009632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_18
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 3808
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff2b5a0b860d19488581756b4b0b5a9
+      internalID: -442675740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_19
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 3808
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0910277a91067645a045ab2b75414fd
+      internalID: -640027663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cac8cc7db84f04293c6203691f443f
+      internalID: -748078564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_21
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 3264
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1847f7d18c506994c9f07ebf07720bfd
+      internalID: -121092471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_22
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3264
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5649148bec57284ba1466226b921764
+      internalID: -687264587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_23
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 3264
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2899989aec87d9848aee6a09bbe9501c
+      internalID: 1630444871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_24
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 3264
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a88c90f77d1b840af6e28bf43ac595
+      internalID: -1700299344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48000a2e453331449c88976941e3c2d
+      internalID: -1513760372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_26
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 2720
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9599ba4665352443b0977c074be1627
+      internalID: -695638982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_27
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2720
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fc9c2a1f3bb444f9865f9877fc4c60
+      internalID: 269054088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_28
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2720
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096f152178aa08146af463fa53ebf730
+      internalID: -1006217508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_29
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 2720
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d81050ec15c88e4684fa8ee965115e7
+      internalID: -1137331581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb259c74112e4e418d6dbca7477b6ff
+      internalID: 2092572616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_31
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 2176
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4b7b43733d4ac48aab94bde944c3f7
+      internalID: -173711164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_32
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2176
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4426796395f83894daa77c0f65c1ae7b
+      internalID: -405076414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_33
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2176
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaeabd2ccd656d47beaf4f5562a04b9
+      internalID: 1981228663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_34
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 2176
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3445adc70dd194f8ac27f742dbe00b
+      internalID: -412652709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c512e2946ec68e241b14cefefed1af91
+      internalID: -1448442952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_36
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1632
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91816f62335451f428f379389a6e9599
+      internalID: 181988197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_37
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1632
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d58d574aa0a004eb4a84573758e7b9
+      internalID: -104187221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_38
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1632
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b308275c1e77c34eaf1ceb613718882
+      internalID: -40901878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_39
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 1632
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f849c744ba03ba479970a2c5dab1c33
+      internalID: 1035421701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79023e53a82085b41864cd8ea341fd78
+      internalID: 942680838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_41
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1088
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ae0634f715f0d43b662b6a002e524b
+      internalID: -624105988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_42
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1088
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f00510d93826d9439579e82523b987c
+      internalID: 474183427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_43
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1088
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bfe791c8c516c4dbc06ce1b0e0e67b
+      internalID: -696249220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_44
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 1088
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb6c30e22bb8824ab0309daecaf9676
+      internalID: 247676942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ab9d83aeb0c88449f6280784058cff
+      internalID: -1613501923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_46
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 544
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c461b327d2d1a5643a8bbd3ed0546692
+      internalID: 1675550859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_47
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 544
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a70de7e4a20f643ad9c6c8202906ff
+      internalID: -1486588826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_48
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 544
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8ff2b3c80860b4daaac17722ec6b09
+      internalID: -25556767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_49
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 544
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89d099403d7e34bb21b9267093f1b8
+      internalID: -1829851833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1b306c4c1d0fb4cb232aadb8934133
+      internalID: 665552495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_51
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 0
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87dcfc8c07b3de4aade4a6e79226aa8
+      internalID: -1529484584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_52
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 0
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5ee19478d5d014983f6645d89ac753
+      internalID: 555219913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_53
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 0
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c9c5430cee4343aa5227f24fe19a8
+      internalID: -382212127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter jet 1070 544_54
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 0
+        width: 1070
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f3595f239a873408e8d25a0c4379b6
+      internalID: 225455343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fcb76e99d9ba69f4fb3e2df5479a379b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fighter jet 1070 544_0: 830233962
+      fighter jet 1070 544_1: 1600947087
+      fighter jet 1070 544_10: -1644958230
+      fighter jet 1070 544_11: -2091380413
+      fighter jet 1070 544_12: 212710393
+      fighter jet 1070 544_13: 1389572598
+      fighter jet 1070 544_14: 1624330420
+      fighter jet 1070 544_15: -517761453
+      fighter jet 1070 544_16: -334308406
+      fighter jet 1070 544_17: -656009632
+      fighter jet 1070 544_18: -442675740
+      fighter jet 1070 544_19: -640027663
+      fighter jet 1070 544_2: -1918654168
+      fighter jet 1070 544_20: -748078564
+      fighter jet 1070 544_21: -121092471
+      fighter jet 1070 544_22: -687264587
+      fighter jet 1070 544_23: 1630444871
+      fighter jet 1070 544_24: -1700299344
+      fighter jet 1070 544_25: -1513760372
+      fighter jet 1070 544_26: -695638982
+      fighter jet 1070 544_27: 269054088
+      fighter jet 1070 544_28: -1006217508
+      fighter jet 1070 544_29: -1137331581
+      fighter jet 1070 544_3: -1418690692
+      fighter jet 1070 544_30: 2092572616
+      fighter jet 1070 544_31: -173711164
+      fighter jet 1070 544_32: -405076414
+      fighter jet 1070 544_33: 1981228663
+      fighter jet 1070 544_34: -412652709
+      fighter jet 1070 544_35: -1448442952
+      fighter jet 1070 544_36: 181988197
+      fighter jet 1070 544_37: -104187221
+      fighter jet 1070 544_38: -40901878
+      fighter jet 1070 544_39: 1035421701
+      fighter jet 1070 544_4: 1504810549
+      fighter jet 1070 544_40: 942680838
+      fighter jet 1070 544_41: -624105988
+      fighter jet 1070 544_42: 474183427
+      fighter jet 1070 544_43: -696249220
+      fighter jet 1070 544_44: 247676942
+      fighter jet 1070 544_45: -1613501923
+      fighter jet 1070 544_46: 1675550859
+      fighter jet 1070 544_47: -1486588826
+      fighter jet 1070 544_48: -25556767
+      fighter jet 1070 544_49: -1829851833
+      fighter jet 1070 544_5: -355018807
+      fighter jet 1070 544_50: 665552495
+      fighter jet 1070 544_51: -1529484584
+      fighter jet 1070 544_52: 555219913
+      fighter jet 1070 544_53: -382212127
+      fighter jet 1070 544_54: 225455343
+      fighter jet 1070 544_6: -1576454757
+      fighter jet 1070 544_7: 918183061
+      fighter jet 1070 544_8: 1907292631
+      fighter jet 1070 544_9: 141941185
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

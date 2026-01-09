@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e4e4b14c2f2c444b6a6baa3e20fae7, type: 3}
+  m_Name: GIF Choices
+  m_EditorClassIdentifier: 
+  name: GIFs
+  choices:
+  - sprite: {fileID: 21300000, guid: c51e735f168b0464888ce599652bd706, type: 3}
+    controller: {fileID: 9100000, guid: fa80cbbf7b326bc45890ed58585ea1fc, type: 2}
+  - sprite: {fileID: 21300000, guid: 9e88254f00220ef4f8eaec1ba49ffbb0, type: 3}
+    controller: {fileID: 9100000, guid: 6a82ae7d3e8b36c4db43fd18d66c07f5, type: 2}
+  - sprite: {fileID: 21300000, guid: c54078681bd6518458568ccc4ad915bf, type: 3}
+    controller: {fileID: 9100000, guid: a233de3d3a8159d48a8a54dd6c3e82bf, type: 2}
+  - sprite: {fileID: 21300000, guid: a1fc5f69bde4a2a44aa7bb1a5af10f30, type: 3}
+    controller: {fileID: 9100000, guid: b34e9539b5190cf4982b135342128931, type: 2}
+  - sprite: {fileID: 21300000, guid: b4e0992272c25d344a38ae51640216f2, type: 3}
+    controller: {fileID: 9100000, guid: 2f099b303c8e0d84aa67658a2c5196b2, type: 2}
+  - sprite: {fileID: 21300000, guid: e1b9616eb58eab4469fc26b557e9a13e, type: 3}
+    controller: {fileID: 9100000, guid: b14d5e213271a9c4e98a382a79be8caa, type: 2}
+  - sprite: {fileID: 21300000, guid: c00375d64a897a74a94b482aa142a189, type: 3}
+    controller: {fileID: 9100000, guid: c1ed62056734dd44a8cea2ad164308ec, type: 2}
+  - sprite: {fileID: 21300000, guid: 10afb4bfdab1bb04a91c7c7f351851dc, type: 3}
+    controller: {fileID: 9100000, guid: aa82b60dd20e5654d9b23a0ec68293ed, type: 2}
+  - sprite: {fileID: 21300000, guid: ebdda97c03ae1534ba73f0fe3ec9720a, type: 3}
+    controller: {fileID: 9100000, guid: 5dcf09aa5b914b544be5814feb516da3, type: 2}
+  - sprite: {fileID: 21300000, guid: 3b1caf5af57ecf045b59c476c85b06c5, type: 3}
+    controller: {fileID: 9100000, guid: a72fc6673ab6e05449da6c350ff2660b, type: 2}
+  - sprite: {fileID: 21300000, guid: baae9a544fcbb8d4fbb07ea7fab23190, type: 3}
+    controller: {fileID: 9100000, guid: 4541742a46c26bb40a0f2e4f4f2004dc, type: 2}
+  - sprite: {fileID: 21300000, guid: c0afe4c0ffa132a4abefe65e74712863, type: 3}
+    controller: {fileID: 9100000, guid: c53245d58e451bd4a9dc124e6349165d, type: 2}
+  - sprite: {fileID: 21300000, guid: 1137c9345e989d14c90f6eace25d1167, type: 3}
+    controller: {fileID: 9100000, guid: 5566bfb05ee4a4442ae396b2fe5b5399, type: 2}
+  - sprite: {fileID: 21300000, guid: e1d7e92251338fe468178e60c8017e6a, type: 3}
+    controller: {fileID: 9100000, guid: 91657904d418b564e8ab730e51355ff4, type: 2}
+  - sprite: {fileID: 21300000, guid: 18a231c1bd7250c42ad7cc42e0f60cd5, type: 3}
+    controller: {fileID: 9100000, guid: ad93f340dd76cb747baac91a08daad6f, type: 2}
+  - sprite: {fileID: 21300000, guid: e0d1896b7b68e4d41aff0326c643a0a1, type: 3}
+    controller: {fileID: 9100000, guid: f687e3914d14b224fb1add7dc673e19b, type: 2}
+  - sprite: {fileID: 21300000, guid: b4ba7181173ef0345a606bf208416056, type: 3}
+    controller: {fileID: 9100000, guid: 6aaa1801d19375b41b6eb782bad0b7db, type: 2}
+  - sprite: {fileID: 21300000, guid: fd2f6a27304857149bfaa475877abf76, type: 3}
+    controller: {fileID: 9100000, guid: ad3d7fbcc0060cb4d9ba2416c3ab791b, type: 2}
+  - sprite: {fileID: 21300000, guid: 092a4b04019569745a270cca78dadbbe, type: 3}
+    controller: {fileID: 9100000, guid: ec13270dfefc4f1448beb6c19612806d, type: 2}
+  - sprite: {fileID: 21300000, guid: b60473b7785067d4592666b9ee6dc9b3, type: 3}
+    controller: {fileID: 9100000, guid: d2f9e36212b8abd489e68b87ac2eef6c, type: 2}
+  - sprite: {fileID: 21300000, guid: f375e8d853a50e64a855954a9396bce6, type: 3}
+    controller: {fileID: 9100000, guid: 54817c3f0162bf54b83b5918ebdfa9be, type: 2}
+  - sprite: {fileID: 21300000, guid: f1388cd720548304cb9b890b996f21c4, type: 3}
+    controller: {fileID: 9100000, guid: 4007408561ef35045986492f23d93608, type: 2}
+  - sprite: {fileID: 21300000, guid: a3c874d143dfcce4ab583096536d106f, type: 3}
+    controller: {fileID: 9100000, guid: d2019f4a0d0bc5941a80e58e78c86824, type: 2}
+  - sprite: {fileID: 21300000, guid: aaa0c270e9572d844b9702194699afb4, type: 3}
+    controller: {fileID: 9100000, guid: 43f143279dfcad44d9d691b59d75b569, type: 2}
+  - sprite: {fileID: 21300000, guid: 528c49a7bc0ec6546a4eca545dfd4846, type: 3}
+    controller: {fileID: 9100000, guid: 493b106787ad92544b3a25a6f47c1682, type: 2}
+  - sprite: {fileID: 21300000, guid: 61974356beaa817438e1cce3a373409d, type: 3}
+    controller: {fileID: 9100000, guid: 7f5dac5f229c83a46994424fdd1c5c07, type: 2}
+  - sprite: {fileID: 21300000, guid: 4d2b65d90b0f56144983e81d18fd53f2, type: 3}
+    controller: {fileID: 9100000, guid: 432221468ff1d384d91c496cefb2e70e, type: 2}
+  - sprite: {fileID: 21300000, guid: d0beb3c51a8361543945d12019e20435, type: 3}
+    controller: {fileID: 9100000, guid: be234a2df9b5f5a47b433a65fef198ed, type: 2}
+  - sprite: {fileID: 21300000, guid: 089d02278b7c9e44ab71b60030ffeeff, type: 3}
+    controller: {fileID: 9100000, guid: aafa7aa1d23f6bb499bde9fd4ed079c4, type: 2}
+  - sprite: {fileID: 21300000, guid: a913ea5186e344d4ca6b17f7bacdf90b, type: 3}
+    controller: {fileID: 9100000, guid: 8d3c12be37215bb41925e3e8b6600f8d, type: 2}
+  - sprite: {fileID: 21300000, guid: 5df6704e03b58c04bbdca80284b11877, type: 3}
+    controller: {fileID: 9100000, guid: e5ef94b2607eddc4d9d52bacda50c131, type: 2}
+  - sprite: {fileID: 21300000, guid: 5e3265f728110bd47b599d39adcf0e7b, type: 3}
+    controller: {fileID: 9100000, guid: a47c2884bb142c0479a1267ea88a57e9, type: 2}
+  - sprite: {fileID: 21300000, guid: cb4e73e0ae64c164f9d464810189f80e, type: 3}
+    controller: {fileID: 9100000, guid: 4a30db5ab71705046b03956207327a69, type: 2}
+  - sprite: {fileID: 21300000, guid: ddeb4111f34fb5a49a366da3a8b4a4eb, type: 3}
+    controller: {fileID: 9100000, guid: dc8f027eec5ffae458d2e2f0c2a2ad25, type: 2}
+  - sprite: {fileID: 21300000, guid: 47ecbb7d0f261844d801f730709da019, type: 3}
+    controller: {fileID: 9100000, guid: 936bae5aae1d9a64ba9dd8bf8137f973, type: 2}
+  - sprite: {fileID: 21300000, guid: d2c73a7892b3c44439c160665d901c4c, type: 3}
+    controller: {fileID: 9100000, guid: b5c81e8a5cff3d1458a356cd1b76f953, type: 2}
+  - sprite: {fileID: 21300000, guid: eeb142a468ca3f74695596eefec614f2, type: 3}
+    controller: {fileID: 9100000, guid: e2064b6289768de4bb66525db8735ee7, type: 2}

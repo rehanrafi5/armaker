@@ -1,0 +1,2269 @@
+fileFormatVersion: 2
+guid: 9561161d034d19847a937bc34b14d406
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: airplane front view 512 154_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2926
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d6b3ebe7a3d96428d95ffd44777bd0
+      internalID: 1059617042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2926
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6220a34eeba5804b9345f620071050b
+      internalID: 570697661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2926
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53685fc4fc23c634cbfecf96dd592941
+      internalID: -1655250353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2926
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13cf537c620cc1428fa690962e4c3f5
+      internalID: 174653111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2926
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0b5f6888bc729459c956dba3bc0936
+      internalID: 136509264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2772
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9023060124375f24f94bd30cd91b92f2
+      internalID: -2117283623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2772
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab343863f77f4c648be8ae7943dc6b2a
+      internalID: 2144530409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2772
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e46fd19e5fa1c54a8e55fa6016cd5eb
+      internalID: 1339141843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2772
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1793f38359e6bc84781dbfbb22ab5d03
+      internalID: 1081469025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2772
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94322aa59f27f8d499c4edd5bb96291a
+      internalID: -1372073414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2618
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eb3ebf60e276340bc381ab222ad445
+      internalID: 2008024633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2618
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ec3fbed36a1224c8607c2211cd9ce0
+      internalID: -1244665021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2618
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c54aeb3f6f309c4d9de2cb9228d5344
+      internalID: 1565476321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2618
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76501ec4eea02754daeee03ad20e4045
+      internalID: 1053437793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2618
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50aa79bc5493964cad830757349557d
+      internalID: 207354142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2464
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca966ee27bb42d479bda7a5920fc892
+      internalID: -2044617546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2464
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc70a48192cd2d418a5ab836204304b
+      internalID: -83715247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2464
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d55c0f800826c46979a25484856e38
+      internalID: 1413127269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2464
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07115d95846518b4aa0852b453b851b7
+      internalID: 2046984895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2464
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17b9a1a434a3304aa19b882d3219b38
+      internalID: 1584048316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bafd3f3fb8523b408490e63603cae46
+      internalID: 121245934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2310
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9506390f5575b04f80adbfa64da378c
+      internalID: -1962296408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2310
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6240c01c232ec04b8a4b96b7a4c8102
+      internalID: 67565816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2310
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0176b2ebb539fd241bbb0e72c7cebd3c
+      internalID: -2040270758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_24
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2310
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2d00cd740fe0a4d906b2e96822ccde
+      internalID: 1966918138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2156
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4950f4c1ffb2a844ba846d07f8489043
+      internalID: 921077387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2156
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d16798d308324f8223fb3e659ad4d
+      internalID: -1652908094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_27
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2156
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d6a4a7b139a4e4d8047a902c648d91
+      internalID: 140627486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2156
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24d6dfb26cc64b4b882b1557a4a94f8
+      internalID: 2120043369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_29
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2156
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df245aeed723dc24b9c72ef4fe268acd
+      internalID: -1624827028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2002
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b81c86f2309358458ae2048570c6ff6
+      internalID: -693910742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2002
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026ca6f6af22e134f93ec25a848493f9
+      internalID: -640252063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2002
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e4a8a49f609cc418a0a5a4da86a778
+      internalID: 791498102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2002
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09731fda6abebf945b5c8e68b897e0cc
+      internalID: -947256252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_34
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2002
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d1a961ac6bfbd4ca004fd3a0246da0
+      internalID: 424999008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd06fef1bf11e94c87a161045af1bb7
+      internalID: 950466500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1848
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d90ab83cab2784eab280d894deeea8
+      internalID: 1057867210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1848
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aac15c40b945594983c3438060a4a33
+      internalID: -605847856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1848
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d60797b6a5a7648b93261e2233b334
+      internalID: 365158332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_39
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1848
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfa84f72d3e1094b82a4900a0b7e7c3
+      internalID: -231434581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1694
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1675dbc1905bc4e87b84d76707e79a
+      internalID: -227802693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1694
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b948ad3bd1e21884eb83067dac4d356c
+      internalID: -1994742434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1694
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc01049b8a379c49b77c28fd906d630
+      internalID: -590433081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1694
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574bbd9a358d4174b8b38694d9ab634b
+      internalID: 235685728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1694
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f99b5306b02d2498c7d4e7d6d1b4f3
+      internalID: -879948022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14629825d09eef1458c075e95c2a5adf
+      internalID: 1837866436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1540
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9b3e50219643e49a06145c004673a8
+      internalID: -1884784115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_47
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1540
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf053a0f17fdbf4584557f7bf8edf05
+      internalID: 994397443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1540
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f764a1f33a1dff74abd15573edb3f60a
+      internalID: -310208900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_49
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1540
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479adabc07d477141b24eba9a01561be
+      internalID: 41301819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1386
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b00cae33931c9458f5991d9e3cd3a4
+      internalID: -1462054397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1386
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c58b751653ba3b4189ec2b408d9700d
+      internalID: -959022701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1386
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50272ae255ae9f1429d60d9dca2d77fe
+      internalID: 1203946930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1386
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09e3e61dd31654448219699b82644fe
+      internalID: 1830773182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_54
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1386
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd05fffd940c70478b376cabf038d65
+      internalID: -1995750874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c27b033ae6044441bbd87a3d9fca308
+      internalID: -1669149787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1232
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a3a0823907ae74aba0b63a8a223d23
+      internalID: 1062765772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_57
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1232
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed4dd45a44f6f44c91621e528e921f6
+      internalID: -363059164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_58
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1232
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8655433d4f6dabf498238b376c3ddcb9
+      internalID: -163194105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_59
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1232
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91a7ebe1b377414eacd95e6cae12663
+      internalID: 38609652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7d346763387ce4f95c5e1bf90a6b88
+      internalID: 504806047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_61
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1078
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17598eb79e384045bf11a8615bacaef
+      internalID: 1470028533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_62
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1078
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1c08b639511a24fb0e58b8a74219ce
+      internalID: -1591916957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_63
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1078
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b31fbb7ded5c04e8ad4a973eba6013
+      internalID: 1522183909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_64
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1078
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84652421ea832e46a2102c74883ef18
+      internalID: -1707273993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd88b82903bf9e43af7bbd3fa5392b8
+      internalID: -2062197313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_66
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 924
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f0abf090c1dba4aa38c98ac0015f05
+      internalID: 1188084375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_67
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 924
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b0c603a3ab03240a6f824ce6c2793e
+      internalID: -1129579259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_68
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 924
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a2bfc809d8a484fb1a02b360826e32
+      internalID: -1370143342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_69
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 924
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f177f6eb4a3d04895f2ba275c1ac64
+      internalID: -1516078008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddf75b9df0e6b1478dafffff2080b63
+      internalID: 102346657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_71
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 770
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7098521d6c128cf429bf468adeeaea9a
+      internalID: -1914031102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_72
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 770
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f9fdc89d4e92b4085c13edae59f059
+      internalID: 859107022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_73
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 770
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781fc34f5ec12044fbaac37133822b31
+      internalID: 1042231542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_74
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 770
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca331297881d6ec41ab7e1a44cfb5b3b
+      internalID: 1104935173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8328f5c862c39145bc75a112f14d5d7
+      internalID: 741454788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_76
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 616
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1257cc107cadc61438726505481d27db
+      internalID: 1950118121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_77
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 616
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789bf451bf9729b4588f1712f6057271
+      internalID: 1407383182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_78
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 616
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9214ef29ade2d4582a8695c79eca92
+      internalID: 1707905359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_79
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 616
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ba2acdf8e91db428caa1a83909019b
+      internalID: 303067802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9ad8325668a014c8c256378857123e
+      internalID: -1411690035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_81
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 462
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfce71ec5864da3469273b6234ce1f2d
+      internalID: 799192369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_82
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 462
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d67c2ccadc24cc4087187d734a92942
+      internalID: -1116840266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_83
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 462
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd6ba4b3e9fed14ab8074c6144752c6
+      internalID: -1849529191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_84
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 462
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfc65ee3b3da3b48b45fd8b5e422baf
+      internalID: 765116396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a72caf7eca7aa41a5d6e4ded9f06f7
+      internalID: -788583924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 308
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e271c20f04db6241960125852a2d0b9
+      internalID: 926477479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_87
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 308
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ec32ddf36c24f46bbf03baa38c128e
+      internalID: -1426159144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_88
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 308
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5987dcfea4d3b4583fe836378692aa
+      internalID: -959199033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_89
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 308
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6bd47277421bd42b26ecf1b5d13d0f
+      internalID: -23191750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87197f9527c300441860ecd155730841
+      internalID: -761625006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 154
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c87d7de783a53429707af9e8c13ac6
+      internalID: -1236476372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_92
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 154
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8ea776da0beb74793b0660108e46aa
+      internalID: 971582941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_93
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 154
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce6f9f5b7bb31b44b8f32673c4ec8b0
+      internalID: -965781108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_94
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 154
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7091393cc9cd5ef41a4e79897b36fc97
+      internalID: 158584517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82b15ba9c5512f4da9e998d7bda54f9
+      internalID: -1901830533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: airplane front view 512 154_96
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e8f0940e6e9f4189e68586fce8894
+      internalID: -400858446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 192531a5dd2888f4481733b70053c816
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      airplane front view 512 154_0: 1059617042
+      airplane front view 512 154_1: 570697661
+      airplane front view 512 154_10: 2008024633
+      airplane front view 512 154_11: -1244665021
+      airplane front view 512 154_12: 1565476321
+      airplane front view 512 154_13: 1053437793
+      airplane front view 512 154_14: 207354142
+      airplane front view 512 154_15: -2044617546
+      airplane front view 512 154_16: -83715247
+      airplane front view 512 154_17: 1413127269
+      airplane front view 512 154_18: 2046984895
+      airplane front view 512 154_19: 1584048316
+      airplane front view 512 154_2: -1655250353
+      airplane front view 512 154_20: 121245934
+      airplane front view 512 154_21: -1962296408
+      airplane front view 512 154_22: 67565816
+      airplane front view 512 154_23: -2040270758
+      airplane front view 512 154_24: 1966918138
+      airplane front view 512 154_25: 921077387
+      airplane front view 512 154_26: -1652908094
+      airplane front view 512 154_27: 140627486
+      airplane front view 512 154_28: 2120043369
+      airplane front view 512 154_29: -1624827028
+      airplane front view 512 154_3: 174653111
+      airplane front view 512 154_30: -693910742
+      airplane front view 512 154_31: -640252063
+      airplane front view 512 154_32: 791498102
+      airplane front view 512 154_33: -947256252
+      airplane front view 512 154_34: 424999008
+      airplane front view 512 154_35: 950466500
+      airplane front view 512 154_36: 1057867210
+      airplane front view 512 154_37: -605847856
+      airplane front view 512 154_38: 365158332
+      airplane front view 512 154_39: -231434581
+      airplane front view 512 154_4: 136509264
+      airplane front view 512 154_40: -227802693
+      airplane front view 512 154_41: -1994742434
+      airplane front view 512 154_42: -590433081
+      airplane front view 512 154_43: 235685728
+      airplane front view 512 154_44: -879948022
+      airplane front view 512 154_45: 1837866436
+      airplane front view 512 154_46: -1884784115
+      airplane front view 512 154_47: 994397443
+      airplane front view 512 154_48: -310208900
+      airplane front view 512 154_49: 41301819
+      airplane front view 512 154_5: -2117283623
+      airplane front view 512 154_50: -1462054397
+      airplane front view 512 154_51: -959022701
+      airplane front view 512 154_52: 1203946930
+      airplane front view 512 154_53: 1830773182
+      airplane front view 512 154_54: -1995750874
+      airplane front view 512 154_55: -1669149787
+      airplane front view 512 154_56: 1062765772
+      airplane front view 512 154_57: -363059164
+      airplane front view 512 154_58: -163194105
+      airplane front view 512 154_59: 38609652
+      airplane front view 512 154_6: 2144530409
+      airplane front view 512 154_60: 504806047
+      airplane front view 512 154_61: 1470028533
+      airplane front view 512 154_62: -1591916957
+      airplane front view 512 154_63: 1522183909
+      airplane front view 512 154_64: -1707273993
+      airplane front view 512 154_65: -2062197313
+      airplane front view 512 154_66: 1188084375
+      airplane front view 512 154_67: -1129579259
+      airplane front view 512 154_68: -1370143342
+      airplane front view 512 154_69: -1516078008
+      airplane front view 512 154_7: 1339141843
+      airplane front view 512 154_70: 102346657
+      airplane front view 512 154_71: -1914031102
+      airplane front view 512 154_72: 859107022
+      airplane front view 512 154_73: 1042231542
+      airplane front view 512 154_74: 1104935173
+      airplane front view 512 154_75: 741454788
+      airplane front view 512 154_76: 1950118121
+      airplane front view 512 154_77: 1407383182
+      airplane front view 512 154_78: 1707905359
+      airplane front view 512 154_79: 303067802
+      airplane front view 512 154_8: 1081469025
+      airplane front view 512 154_80: -1411690035
+      airplane front view 512 154_81: 799192369
+      airplane front view 512 154_82: -1116840266
+      airplane front view 512 154_83: -1849529191
+      airplane front view 512 154_84: 765116396
+      airplane front view 512 154_85: -788583924
+      airplane front view 512 154_86: 926477479
+      airplane front view 512 154_87: -1426159144
+      airplane front view 512 154_88: -959199033
+      airplane front view 512 154_89: -23191750
+      airplane front view 512 154_9: -1372073414
+      airplane front view 512 154_90: -761625006
+      airplane front view 512 154_91: -1236476372
+      airplane front view 512 154_92: 971582941
+      airplane front view 512 154_93: -965781108
+      airplane front view 512 154_94: 158584517
+      airplane front view 512 154_95: -1901830533
+      airplane front view 512 154_96: -400858446
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
