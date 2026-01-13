@@ -66,10 +66,19 @@ namespace ARMarker
 
             if (!isPrefabSpawned)
             {
-                isPrefabSpawned = true;
                 cachedWorkLayer = AddLayer(cachedData);
+
+                // ❌ Layer creation blocked (e.g. no marker selected)
+                if (cachedWorkLayer == null)
+                {
+                    isPrefabSpawned = false;
+                    return;
+                }
+
+                isPrefabSpawned = true;
                 cachedWorkLayer.SetupInitialDrag(true);
             }
+
 
             cachedWorkLayer?.OnBeginDrag(eventData);
         }
@@ -82,8 +91,14 @@ namespace ARMarker
                 return;
             }
 
-            cachedWorkLayer?.OnDrag(eventData);
+            if (cachedWorkLayer == null)
+            {
+                return;
+            }
+
+            cachedWorkLayer.OnDrag(eventData);
         }
+
 
         public void OnEndDrag(PointerEventData eventData)
         {
@@ -93,12 +108,16 @@ namespace ARMarker
                 return;
             }
 
-            if (cachedWorkLayer != null)
+            if (cachedWorkLayer == null)
             {
                 isPrefabSpawned = false;
-                cachedWorkLayer.OnEndDrag(eventData);
+                return;
             }
+
+            isPrefabSpawned = false;
+            cachedWorkLayer.OnEndDrag(eventData);
         }
+
 
 
         #endregion // EventSystems

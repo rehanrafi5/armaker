@@ -185,6 +185,17 @@ namespace ARMarker
             }
         }
 
+        public bool HasValidMarker()
+        {
+            return cachedMarker != null;
+        }
+
+        public void RaiseNoMarkerError()
+        {
+            Debug.LogError($"{GetType().Name}: " + errorNoMarker, gameObject);
+            onErrorListener?.Invoke(errorNoMarker);
+        }
+
         private void UpdateClonePositionRotation()
         {
             var trackedImage = ARSessionSingleton.Instance.GetTrackedImage();

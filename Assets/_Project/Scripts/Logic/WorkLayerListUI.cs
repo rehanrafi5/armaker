@@ -50,6 +50,11 @@ namespace ARMarker
 
         private void OnDestroy()
         {
+            if (WorkSpaceSingleton.Instance == null)
+            {
+                return;
+            }
+
             WorkSpaceSingleton.Instance
                 .RegisterOnNewLayerAdded(OnNewLayerAdded, true);
             WorkSpaceSingleton.Instance
@@ -57,6 +62,8 @@ namespace ARMarker
             WorkSpaceSingleton.Instance
                 .RegisterOnUpdatetempLayer(OnChangeTempLayer, true);
         }
+
+
 
         private void SetUpCachedLayers()
         {
