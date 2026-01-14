@@ -21,8 +21,12 @@ namespace ARMarker
 
         private void OnDestroy()
         {
-            GameManager.Instance.RegisterOnError(OnError, true);
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.RegisterOnError(OnError, true);
+            }
         }
+
 
         private void OnError(string error)
         {

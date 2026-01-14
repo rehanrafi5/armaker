@@ -5,12 +5,9 @@ using UnityEngine.UI;
 
 namespace ARMarker
 {
-
     public class SFXChoiceButton : BaseChoiceButton<SFXLayerData>
     {
-
         [Space]
-
         [SerializeField]
         private TextMeshProUGUI textName;
 
@@ -24,19 +21,21 @@ namespace ARMarker
 
         protected override WorkLayer AddLayer(SFXLayerData data)
         {
+            // 🚫 BLOCK SFX placement if no marker is selected
+            if (!GameManager.Instance.HasValidMarker())
+            {
+                GameManager.Instance.RaiseNoMarkerError();
+                return null;
+            }
+
             return WorkSpaceSingleton.Instance.AddSFXLayer(data);
         }
 
         public void RegisterOnClick(Action<SFXLayerData> listener)
         {
-            if (listener == null)
-            {
-                return;
-            }
+            if (listener == null) return;
 
             button.onClick.AddListener(() => listener.Invoke(cachedData));
         }
-
     }
-
 }
