@@ -387,8 +387,11 @@ namespace ARMarker
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            
+            if (isLocked || cachedData.isTemporary) return;
+
+            UndoManager.Instance.CaptureBeforeModify(this);
         }
+
 
         public void OnDrag(PointerEventData eventData)
         {
@@ -402,11 +405,14 @@ namespace ARMarker
 
         public void OnEndDrag(PointerEventData eventData)
         {
+            if (isLocked || cachedData.isTemporary) return;
+
+            UndoManager.Instance.CaptureAfterModify(this);
+
             if (isInitialDrag)
-            {
                 isInitialDrag = false;
-            }
         }
+
 
         private Vector3 ScreenToWorld(Vector3 screenPos, float z)
         {
