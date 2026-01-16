@@ -61,6 +61,11 @@ namespace ARMarker
         private Action<WorkLayer> onUpdateTempLayer;
 
         private float cachedLayerPositionZ;
+        
+        private Action<WorkLayer> onLayerRemoved;
+
+        
+
 
         public void DeleteClone()
         {
@@ -93,6 +98,7 @@ namespace ARMarker
 #endif
             return cloneRotationAndroid;
         }
+        
 
         public void CloneToARWorld(ARTrackedImage trackedImage, bool shouldReparent = true)
         {
@@ -334,13 +340,12 @@ namespace ARMarker
 
         public void DuplicateLayer(WorkLayer layerToDuplicate)
         {
-            if (layerToDuplicate == null 
-                || layerToDuplicate.Data == null)
-            {
+            if (layerToDuplicate == null || layerToDuplicate.Data == null)
                 return;
-            }
 
             layerToDuplicate.Deselect();
+
+            // Create the duplicate
             var layer = AddLayer(layerToDuplicate.Data.sprite, false);
 
             layer.transform.localPosition = layerToDuplicate.transform.localPosition;
@@ -350,33 +355,52 @@ namespace ARMarker
             layer.SetUpAnimator(layerToDuplicate.Data.animController);
             layer.SetUpVideoController(layerToDuplicate.Data.videoClip);
             layer.SetUpSFX(layerToDuplicate.Data.audioClip);
+
+            // Register with UndoManager
+            UndoManager.Instance.RegisterAdd(layer);
         }
 
-        public void DeleteLayer(WorkLayer layerToDelete)
+
+        public void RegisterOnLayerRemoved(Action<WorkLayer> listener, bool deregister = false)
         {
-            if (layerToDelete == null)
-            {
-                return;
-            }
-
-            for(int x=0; x<cachedLayers.Count; x++)
-            {
-                var layer = cachedLayers[x];
-
-                if (layer == null)
-                {
-                    continue;
-                }
-
-                if (layer.GetHashCode() == layerToDelete.GetHashCode())
-                {
-                    cachedLayers.RemoveAt(x);
-                    Destroy(layer.gameObject);
-                    onLayerCountChange?.Invoke(cachedLayers.Count);
-                    return;
-                }
-            }
+            if (listener == null) return;
+            if (deregister) onLayerRemoved -= listener;
+            else onLayerRemoved += listener;
         }
+
+        public void AddLayerFromCache(WorkLayer layer)
+        {
+            if (layer == null) return;
+
+            if (!cachedLayers.Contains(layer))
+                cachedLayers.Add(layer);
+
+            layer.gameObject.SetActive(true);
+
+            // ✅ Re-initialize layer components
+            layer.SetUp(layer.Data);
+
+            // Notify UI listeners
+            onAddNewLayer?.Invoke(layer);
+            onLayerCountChange?.Invoke(cachedLayers.Count);
+        }
+
+
+        public void DeleteLayer(WorkLayer layer)
+        {
+            if (layer == null) return;
+
+            if (cachedLayers.Contains(layer))
+                cachedLayers.Remove(layer);
+
+            // Notify listeners to remove UI
+            onLayerRemoved?.Invoke(layer);
+            onLayerCountChange?.Invoke(cachedLayers.Count);
+
+            // Destroy GameObject
+            Destroy(layer.gameObject);
+        }
+
 
     }
 
