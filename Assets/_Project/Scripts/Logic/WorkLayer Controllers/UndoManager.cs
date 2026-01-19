@@ -5,8 +5,6 @@ using UnityEngine.Video;
 
 public enum UndoAction
 {
-    Added,
-    Removed,
     Modified
 }
 
@@ -59,215 +57,157 @@ public class WorkLayerSaveState
 
 namespace ARMarker
 {
-    public class UndoManager : BaseSingleton<UndoManager>
+    namespace ARMarker
     {
-        [SerializeField] private Button undoButton;
-        [SerializeField] private Button redoButton;
-
-        private readonly Stack<WorkLayerSaveState> past = new();
-        private readonly Stack<WorkLayerSaveState> future = new();
-
-        private WorkLayerSaveState current;
-        private WorkLayerTransformState cachedBefore;
-
-        private void Start()
+        public class UndoManager : BaseSingleton<UndoManager>
         {
-            undoButton.onClick.AddListener(Undo);
-            redoButton.onClick.AddListener(Redo);
-        }
+            [SerializeField] private Button undoButton;
+            [SerializeField] private Button redoButton;
 
-        private void Update()
-        {
-            undoButton.interactable = current != null || past.Count > 0;
-            redoButton.interactable = future.Count > 0;
-        }
+            private readonly Stack<WorkLayerSaveState> past = new();
+            private readonly Stack<WorkLayerSaveState> future = new();
 
-        // -------------------------------
-        // CAPTURE POINTS
-        // -------------------------------
+            private WorkLayerSaveState current;
+            private WorkLayerTransformState cachedBefore;
 
-        public void CaptureBeforeModify(WorkLayer layer)
-        {
-            if (layer == null || layer.Data.isTemporary) return;
-            cachedBefore = new WorkLayerTransformState(layer.transform);
-        }
-
-        public void CaptureAfterModify(WorkLayer layer)
-        {
-            if (layer == null || layer.Data.isTemporary || cachedBefore == null) return;
-
-            var state = new WorkLayerSaveState(UndoAction.Modified)
+            private void Start()
             {
-                InstanceId = layer.GetInstanceID(),
-                Before = cachedBefore,
-                After = new WorkLayerTransformState(layer.transform)
-            };
-
-            Push(state);
-            cachedBefore = null;
-        }
-
-        public void RegisterAdd(WorkLayer layer)
-        {
-            if (layer == null || layer.Data.isTemporary) return;
-
-            var state = new WorkLayerSaveState(UndoAction.Added)
-            {
-                InstanceId = layer.GetInstanceID(),
-                Sprite = layer.Data.sprite,
-                Animator = layer.Data.animController,
-                Video = layer.Data.videoClip,
-                Audio = layer.Data.audioClip,
-                After = new WorkLayerTransformState(layer.transform),
-                SiblingIndex = layer.transform.GetSiblingIndex()
-            };
-
-            Push(state);
-        }
-
-        public void RegisterRemove(WorkLayer layer)
-        {
-            if (layer == null || layer.Data.isTemporary) return;
-
-            var state = new WorkLayerSaveState(UndoAction.Removed)
-            {
-                InstanceId = layer.GetInstanceID(),
-                Sprite = layer.Data.sprite,
-                Animator = layer.Data.animController,
-                Video = layer.Data.videoClip,
-                Audio = layer.Data.audioClip,
-                Before = new WorkLayerTransformState(layer.transform),
-                SiblingIndex = layer.transform.GetSiblingIndex()
-            };
-
-            Push(state);
-        }
-
-        // -------------------------------
-        // CORE STACK OPS
-        // -------------------------------
-
-        private void Push(WorkLayerSaveState state)
-        {
-            if (current != null)
-                past.Push(current);
-
-            current = state;
-            future.Clear();
-        }
-
-        // -------------------------------
-        // UNDO / REDO
-        // -------------------------------
-
-        private void Undo()
-        {
-            if (current == null && past.Count == 0) return;
-
-            var state = current ?? past.Pop();
-
-            ApplyUndo(state);
-
-            future.Push(state);
-            current = past.Count > 0 ? past.Pop() : null;
-        }
-
-        private void Redo()
-        {
-            if (future.Count == 0) return;
-
-            var state = future.Pop();
-            ApplyRedo(state);
-
-            if (current != null)
-                past.Push(current);
-
-            current = state;
-        }
-
-        // -------------------------------
-        // APPLY LOGIC
-        // -------------------------------
-
-        private void ApplyUndo(WorkLayerSaveState state)
-        {
-            switch (state.Action)
-            {
-                case UndoAction.Added:
-                    RemoveLayerById(state.InstanceId);
-                    break;
-
-                case UndoAction.Removed:
-                    RecreateLayer(state, true);
-                    break;
-
-                case UndoAction.Modified:
-                {
-                    var layer = GetLayerById(state.InstanceId);
-                    if (layer != null && state.Before != null)
-                        state.Before.ApplyTo(layer.transform);
-                    break;
-                }
-
+                undoButton.onClick.AddListener(Undo);
+                redoButton.onClick.AddListener(Redo);
             }
-        }
 
-        private void ApplyRedo(WorkLayerSaveState state)
-        {
-            switch (state.Action)
+            private void Update()
             {
-                case UndoAction.Added:
-                    RecreateLayer(state, false);
-                    break;
+                var activeLayer = WorkSpaceSingleton.Instance.GetActiveLayer();
+                bool undoAvailable = (current != null || past.Count > 0)
+                                     && (activeLayer == null || !activeLayer.IsLocked);
+                bool redoAvailable = (future.Count > 0)
+                                     && (activeLayer == null || !activeLayer.IsLocked);
 
-                case UndoAction.Removed:
-                    RemoveLayerById(state.InstanceId);
-                    break;
-
-                case UndoAction.Modified:
-                {
-                    var layer = GetLayerById(state.InstanceId);
-                    if (layer != null && state.After != null)
-                        state.After.ApplyTo(layer.transform);
-                    break;
-                }
-
+                undoButton.interactable = undoAvailable;
+                redoButton.interactable = redoAvailable;
             }
-        }
 
-        // -------------------------------
-        // HELPERS
-        // -------------------------------
+            // -------------------------------
+            // CAPTURE POINTS
+            // -------------------------------
 
-        private void RecreateLayer(WorkLayerSaveState state, bool applyBefore)
-        {
-            var layer = WorkSpaceSingleton.Instance.AddLayer(state.Sprite, false);
+            public void CaptureBeforeModify(WorkLayer layer)
+            {
+                if (layer == null || layer.Data.isTemporary || layer.IsLocked)
+                    return;
 
-            if (state.Animator) layer.SetUpAnimator(state.Animator);
-            if (state.Video) layer.SetUpVideoController(state.Video);
-            if (state.Audio) layer.SetUpSFX(state.Audio);
+                // Allow capturing even if it’s the first modification after placement
+                cachedBefore = new WorkLayerTransformState(layer.transform);
+            }
 
-            var tState = applyBefore ? state.Before : state.After;
-            tState?.ApplyTo(layer.transform);
+            public void CaptureAfterModify(WorkLayer layer)
+            {
+                if (layer == null || layer.Data.isTemporary || cachedBefore == null || layer.IsLocked)
+                    return;
 
-            layer.transform.SetSiblingIndex(state.SiblingIndex);
-            state.InstanceId = layer.GetInstanceID();
-        }
+                var state = new WorkLayerSaveState(UndoAction.Modified)
+                {
+                    InstanceId = layer.GetInstanceID(),
+                    Before = cachedBefore,
+                    After = new WorkLayerTransformState(layer.transform)
+                };
 
-        private void RemoveLayerById(int id)
-        {
-            var layer = GetLayerById(id);
-            if (layer != null)
-                WorkSpaceSingleton.Instance.DeleteLayer(layer);
-        }
+                Push(state);
+                cachedBefore = null;
+            }
 
-        private WorkLayer GetLayerById(int id)
-        {
-            foreach (var l in WorkSpaceSingleton.Instance.GetLayers())
-                if (l && l.GetInstanceID() == id)
-                    return l;
+            
+            
+            public void ResetUndoRedo()
+            {
+                past.Clear();
+                future.Clear();
+                current = null;
+                cachedBefore = null;
 
-            return null;
+                // Update buttons
+                undoButton.interactable = false;
+                redoButton.interactable = false;
+            }
+
+
+            // -------------------------------
+            // CORE STACK OPS
+            // -------------------------------
+
+            private void Push(WorkLayerSaveState state)
+            {
+                if (current != null)
+                    past.Push(current);
+
+                current = state;
+                future.Clear();
+            }
+
+            // -------------------------------
+            // UNDO / REDO
+            // -------------------------------
+
+            private void Undo()
+            {
+                if (current == null && past.Count == 0) return;
+
+                var state = current ?? past.Pop();
+
+                ApplyUndo(state);
+
+                future.Push(state);
+                current = past.Count > 0 ? past.Pop() : null;
+            }
+
+            private void Redo()
+            {
+                if (future.Count == 0) return;
+
+                var state = future.Pop();
+                ApplyRedo(state);
+
+                if (current != null)
+                    past.Push(current);
+
+                current = state;
+            }
+
+            // -------------------------------
+            // APPLY LOGIC
+            // -------------------------------
+
+            private void ApplyUndo(WorkLayerSaveState state)
+            {
+                if (state.Action != UndoAction.Modified) return;
+
+                var layer = GetLayerById(state.InstanceId);
+                if (layer != null && state.Before != null)
+                    state.Before.ApplyTo(layer.transform);
+            }
+
+            private void ApplyRedo(WorkLayerSaveState state)
+            {
+                if (state.Action != UndoAction.Modified) return;
+
+                var layer = GetLayerById(state.InstanceId);
+                if (layer != null && state.After != null)
+                    state.After.ApplyTo(layer.transform);
+            }
+
+            // -------------------------------
+            // HELPERS
+            // -------------------------------
+
+            private WorkLayer GetLayerById(int id)
+            {
+                foreach (var l in WorkSpaceSingleton.Instance.GetLayers())
+                    if (l && l.GetInstanceID() == id)
+                        return l;
+
+                return null;
+            }
         }
     }
 }

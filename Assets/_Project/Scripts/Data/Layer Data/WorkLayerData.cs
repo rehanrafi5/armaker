@@ -17,7 +17,7 @@ namespace ARMarker
         public RuntimeAnimatorController animController;
         public VideoClip videoClip;
         public AudioClip audioClip;
-
+        public bool hasBeenPlaced = false; 
         public void ResetTransform()
         {
             position = Vector3.zero;

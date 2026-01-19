@@ -63,7 +63,7 @@ namespace ARMarker
         private float cachedLayerPositionZ;
         
         private Action<WorkLayer> onLayerRemoved;
-
+        
         
 
 
@@ -357,7 +357,7 @@ namespace ARMarker
             layer.SetUpSFX(layerToDuplicate.Data.audioClip);
 
             // Register with UndoManager
-            UndoManager.Instance.RegisterAdd(layer);
+            //UndoManager.Instance.RegisterAdd(layer);
         }
 
 

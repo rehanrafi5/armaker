@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using ARMarker.ARMarker;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Video;
@@ -63,6 +64,8 @@ namespace ARMarker
         private bool isInitialDrag;
 
         public SpriteRenderer ImageOnBack;
+        
+        public bool hasBeenPlaced = false;  
 
         private void Awake()
         {
@@ -387,10 +390,31 @@ namespace ARMarker
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            if (isLocked || cachedData.isTemporary) return;
+            // Ignore undo for locked, temporary, or unplaced layers
+            if (isLocked || cachedData.isTemporary || !cachedData.hasBeenPlaced) 
+                return;
 
             UndoManager.Instance.CaptureBeforeModify(this);
         }
+
+        public void OnEndDrag(PointerEventData eventData)
+        {
+            if (isLocked || cachedData.isTemporary) return;
+
+            if (!cachedData.hasBeenPlaced)
+            {
+                // First time drop → mark as placed, do NOT capture undo
+                cachedData.hasBeenPlaced = true;
+                return;
+            }
+
+            // Only capture undo if the layer has been placed before
+            UndoManager.Instance.CaptureAfterModify(this);
+
+            if (isInitialDrag)
+                isInitialDrag = false;
+        }
+
 
 
         public void OnDrag(PointerEventData eventData)
@@ -401,16 +425,6 @@ namespace ARMarker
                 newPos.z = cachedData.position.z;
                 transform.localPosition = newPos;
             }
-        }
-
-        public void OnEndDrag(PointerEventData eventData)
-        {
-            if (isLocked || cachedData.isTemporary) return;
-
-            UndoManager.Instance.CaptureAfterModify(this);
-
-            if (isInitialDrag)
-                isInitialDrag = false;
         }
 
 
