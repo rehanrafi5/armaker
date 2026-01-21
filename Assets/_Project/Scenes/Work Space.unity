@@ -5093,8 +5093,8 @@ MonoBehaviour:
   rotation2D: {x: 0, y: 0.008726535, z: 0, w: 0.9999619}
   activeObjects2D:
   - {fileID: 1658196689}
-  position3D: {x: 7.5, y: 1.7, z: 0}
-  rotation3D: {x: -0.064446576, y: 0.3817513, z: -0.02669465, w: -0.921629}
+  position3D: {x: 0, y: 0, z: 0}
+  rotation3D: {x: -0.060410876, y: 0.4987821, z: -0.03487824, w: -0.8639158}
   activeObjects3D:
   - {fileID: 325334133}
 --- !u!114 &753237742
