@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -24,7 +25,8 @@ namespace ARMarker
         private ARTrackedImageManager cachedARManager;
 
         private ARSession cachedSession;
-        private ARSessionOrigin cachedSessionOrigin;
+        //private ARSessionOrigin cachedSessionOrigin;
+        private XROrigin cachedSessionOrigin_;
         
         private GameObject cachedARObject;
 
@@ -69,10 +71,10 @@ namespace ARMarker
         public ARTrackedImage GetTrackedImage() => cachedTrackedImage;
 
         public void RegisterSessionOrigin(
-            ARSession session, ARSessionOrigin sessionOrigin)
+            ARSession session, XROrigin sessionOrigin)
         {
             cachedSession = session;
-            cachedSessionOrigin = sessionOrigin;
+            cachedSessionOrigin_ = sessionOrigin;
             onStatusChange?.Invoke(ARStatus.SessionOriginCreated);
         }
 
@@ -81,7 +83,7 @@ namespace ARMarker
             SafelyDeleteSpawnedARObject();
 
             cachedARObject = Instantiate(prefabARBlankObject,
-                cachedSessionOrigin.transform);
+                cachedSessionOrigin_.transform);
             return cachedARObject.transform;
         }
 
@@ -114,17 +116,9 @@ namespace ARMarker
 
         private void SetUpTracking()
         {
-            Debug.LogWarning($"{GetType().Name}" +
-                $".SetUpTracking(): cachedSessionOrigin is null? " +
-                $"{cachedSessionOrigin == null}", gameObject);
-
-            Debug.LogWarning($"{GetType().Name}" +
-                $".SetUpTracking(): cachedSession is null? " +
-                $"{cachedSession == null}", gameObject);
-
             runCount++;
 
-            cachedARManager = cachedSessionOrigin.gameObject
+            cachedARManager = cachedSessionOrigin_.gameObject
                 .AddComponent<ARTrackedImageManager>();
             cachedARManager.trackedImagePrefab = prefabARBlankObject;
             cachedARManager.requestedMaxNumberOfMovingImages = maxNumberOfMovingImages;

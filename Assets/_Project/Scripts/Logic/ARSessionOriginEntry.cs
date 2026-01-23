@@ -1,3 +1,4 @@
+using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
@@ -10,13 +11,15 @@ namespace ARMarker
         [SerializeField]
         private ARSession aRSession;
 
+        [SerializeField] private XROrigin xrOrigin;
+        
         [SerializeField]
         private ARSessionOrigin aRSessionOrigin;
 
         private void Awake()
         {
             ARSessionSingleton.Instance.RegisterSessionOrigin(
-                aRSession, aRSessionOrigin);
+                aRSession, xrOrigin);
         }
 
     }
