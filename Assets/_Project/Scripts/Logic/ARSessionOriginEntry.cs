@@ -11,7 +11,7 @@ namespace ARMarker
         [SerializeField]
         private ARSession aRSession;
 
-        [SerializeField] private XROrigin xrOrigin;
+        //[SerializeField] private XROrigin xrOrigin;
         
         [SerializeField]
         private ARSessionOrigin aRSessionOrigin;
@@ -19,7 +19,7 @@ namespace ARMarker
         private void Awake()
         {
             ARSessionSingleton.Instance.RegisterSessionOrigin(
-                aRSession, xrOrigin);
+                aRSession, aRSessionOrigin);
         }
 
     }

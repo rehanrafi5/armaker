@@ -18,42 +18,92 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5645882700409519998
-      m_GuidHigh: 1350643992162670495
+      m_GuidLow: 4962263928553747951
+      m_GuidHigh: 3782240862620482742
     m_SerializedTextureGuid:
-      m_GuidLow: 17083333146813288240
-      m_GuidHigh: 12991265397608117065
+      m_GuidLow: 9958812944679794351
+      m_GuidHigh: 7516788462293190971
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: MarkerIcons02
+    m_Name: LillyPad_AR
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5146322587027553463
-      m_GuidHigh: 10977264644338223030
+      m_GuidLow: 5745380295177539792
+      m_GuidHigh: 8703954991399107727
     m_SerializedTextureGuid:
-      m_GuidLow: 942540641485678025
-      m_GuidHigh: 11372333664712300680
-    m_Size: {x: 0.1, y: 0.1}
+      m_GuidLow: 2401790594302457760
+      m_GuidHigh: 16351979027364020680
+    m_Size: {x: 0.1, y: 0.13325635}
     m_SpecifySize: 1
-    m_Name: 15
+    m_Name: lilypadtest
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5753007379741809779
-      m_GuidHigh: 8967185799432916119
+      m_GuidLow: 4763446452847540923
+      m_GuidHigh: 6097379065571322522
     m_SerializedTextureGuid:
-      m_GuidLow: 6806077183177842908
-      m_GuidHigh: 17524131106556170298
+      m_GuidLow: 10066806169213536022
+      m_GuidHigh: 15228417766934283336
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: m
+    m_Name: LitKitLogoColor
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4873796186190946631
-      m_GuidHigh: 9649777995771737487
+      m_GuidLow: 4906938474684390480
+      m_GuidHigh: 437008305218049931
     m_SerializedTextureGuid:
-      m_GuidLow: 5657773972986609997
-      m_GuidHigh: 17885561928889933722
+      m_GuidLow: 1960393854493559013
+      m_GuidHigh: 16069875031720287578
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: cool
+    m_Name: LitKitLogoBlack
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5294760648068656857
+      m_GuidHigh: 4834723987365241755
+    m_SerializedTextureGuid:
+      m_GuidLow: 8760885922690771302
+      m_GuidHigh: 10516286765140409050
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Mountain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5641631427998367157
+      m_GuidHigh: 105981028222077600
+    m_SerializedTextureGuid:
+      m_GuidLow: 15682716284780665454
+      m_GuidHigh: 5476288722837892985
+    m_Size: {x: 0.1, y: 0.09504951}
+    m_SpecifySize: 1
+    m_Name: Pond
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5377902854541372223
+      m_GuidHigh: 5232672046305504952
+    m_SerializedTextureGuid:
+      m_GuidLow: 1266834548698390359
+      m_GuidHigh: 14762559482250688280
+    m_Size: {x: 0.1, y: 0.075}
+    m_SpecifySize: 1
+    m_Name: Rat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5246680255146705201
+      m_GuidHigh: 5849355230647596683
+    m_SerializedTextureGuid:
+      m_GuidLow: 17605876613283450115
+      m_GuidHigh: 8726853537584198379
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Scope
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5184312526361971343
+      m_GuidHigh: 17865462461379380364
+    m_SerializedTextureGuid:
+      m_GuidLow: 14899229974273979783
+      m_GuidHigh: 1849775463591467848
+    m_Size: {x: 0.1, y: 0.09047619}
+    m_SpecifySize: 1
+    m_Name: SS
     m_Texture: {fileID: 0}

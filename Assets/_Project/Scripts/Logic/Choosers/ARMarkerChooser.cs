@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR.ARSubsystems;
 
 namespace ARMarker
 { 
@@ -11,6 +12,8 @@ namespace ARMarker
 
         [Header("Data")]
 
+        [SerializeField] private XRReferenceImageLibrary TheLibrary;
+        
         [SerializeField]
         private ARMarkerChoices choices;
 
@@ -48,24 +51,40 @@ namespace ARMarker
 
         private void SetUp()
         {
-            if (choices == null || choices.Choices.Count == 0)
+            if (TheLibrary.count == 0)
             {
                 Debug.LogError($"{GetType().Name}.SetUp(): " +
                     $"Choices are missing!", gameObject);
                 return;
             }
 
-            foreach (var choice in choices.Choices)
+            for (int i = 0; i < TheLibrary.count; i++)
             {
-                if (choice == null)
-                {
-                    continue;
-                }
+                XRReferenceImage refImage = TheLibrary[i];
 
-                var clone = Instantiate(prefabButton, markerButtonsParent);
-                clone.SetUp(choice, OnClickChoice);
-                cachedSpawnedButtons.Add(clone);
+                for (int j = 0; j < choices.MarkerData.Length; j++)
+                {
+                    if (TheLibrary[i].name == choices.MarkerData[j].imageName)
+                    {
+                        var clone = Instantiate(prefabButton, markerButtonsParent);
+                        clone.SetUp(choices.MarkerData[j].previewSprite, OnClickChoice);
+                        cachedSpawnedButtons.Add(clone);
+                    }
+                }
             }
+            // foreach (var choice in TheLibrary)
+            // {
+            //     if (choice == null)
+            //     {
+            //         continue;
+            //     }
+            //
+            //     XRReferenceImage refImage = TheLibrary[i];
+            //     
+            //     var clone = Instantiate(prefabButton, markerButtonsParent);
+            //     clone.SetUp(TextureToSprite(choice.texture), OnClickChoice);
+            //     cachedSpawnedButtons.Add(clone);
+            // }
 
             rootUI.gameObject.SetActive(false);
             SetCachedMarker();
@@ -76,6 +95,7 @@ namespace ARMarker
             rootUI.gameObject.SetActive(false);
             onChooseMarker?.Invoke(
                 cachedSelectedButton.GetMarker());
+            MainGameManager.instance.CurrentMarker = cachedSelectedButton.GetMarker().name;
             SetCachedMarker();
         }
 

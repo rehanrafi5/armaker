@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ namespace ARMarker
     public class ARMarkerChoices : ScriptableObject
     {
 
+        public ARImageUIData[] MarkerData;
+        
         [SerializeField]
         private List<Sprite> choices = new();
 
@@ -16,4 +19,10 @@ namespace ARMarker
 
     }
 
+    [Serializable]
+    public class ARImageUIData
+    {
+        public string imageName;
+        public Sprite previewSprite;
+    }
 }

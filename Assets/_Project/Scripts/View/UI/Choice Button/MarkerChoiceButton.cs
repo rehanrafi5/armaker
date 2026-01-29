@@ -46,7 +46,6 @@ namespace ARMarker
         }
 
         public Sprite GetMarker() => cachedSprite;
-
     }
 
 }

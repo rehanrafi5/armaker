@@ -89,17 +89,6 @@ namespace ARMarker
                 .RegisterOnChangeLayer(OnChangeActiveLayer);
         }
 
-        bool jugar;
-        private Vector3 tempPos;
-        
-        private void Update()
-        {
-            if (jugar)
-            {
-                gameObject.transform.localPosition = tempPos;
-            }
-        }
-
         private void OnEnable()
         {
             StartCoroutine(BlinkSpriteRenderer());   
@@ -200,8 +189,6 @@ namespace ARMarker
             gameObject.transform.localScale = data.scale;
 
             boxCollider.enabled = !data.isTemporary;
-            
-            tempPos = gameObject.transform.localPosition;
 
             SetUpSprite();
             onSetUpData?.Invoke();
@@ -245,8 +232,6 @@ namespace ARMarker
             onSetUpData?.Invoke();
 
             StartCoroutine(BlinkSpriteRenderer());
-
-            jugar = true;
         }
 
         private IEnumerator BlinkSpriteRenderer()

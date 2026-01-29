@@ -25,8 +25,8 @@ namespace ARMarker
         private ARTrackedImageManager cachedARManager;
 
         private ARSession cachedSession;
-        //private ARSessionOrigin cachedSessionOrigin;
-        private XROrigin cachedSessionOrigin_;
+        private ARSessionOrigin cachedSessionOrigin;
+        //private XROrigin cachedSessionOrigin_;
         
         private GameObject cachedARObject;
 
@@ -71,10 +71,10 @@ namespace ARMarker
         public ARTrackedImage GetTrackedImage() => cachedTrackedImage;
 
         public void RegisterSessionOrigin(
-            ARSession session, XROrigin sessionOrigin)
+            ARSession session, ARSessionOrigin sessionOrigin)
         {
             cachedSession = session;
-            cachedSessionOrigin_ = sessionOrigin;
+            cachedSessionOrigin = sessionOrigin;
             onStatusChange?.Invoke(ARStatus.SessionOriginCreated);
         }
 
@@ -83,7 +83,7 @@ namespace ARMarker
             SafelyDeleteSpawnedARObject();
 
             cachedARObject = Instantiate(prefabARBlankObject,
-                cachedSessionOrigin_.transform);
+                cachedSessionOrigin.transform);
             return cachedARObject.transform;
         }
 
@@ -118,7 +118,7 @@ namespace ARMarker
         {
             runCount++;
 
-            cachedARManager = cachedSessionOrigin_.gameObject
+            cachedARManager = cachedSessionOrigin.gameObject
                 .AddComponent<ARTrackedImageManager>();
             cachedARManager.trackedImagePrefab = prefabARBlankObject;
             cachedARManager.requestedMaxNumberOfMovingImages = maxNumberOfMovingImages;
