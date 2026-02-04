@@ -7,6 +7,8 @@ public class MainGameManager : MonoBehaviour
 
     public string CurrentMarker;
     public GameObject currentAR;
+
+    public bool FreeMovement = true;
     
     private void Awake()
     {

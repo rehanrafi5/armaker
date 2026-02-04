@@ -62,31 +62,45 @@ namespace ARMarker
         // Pointer Events
         // =======================
 
-        public void OnPointerDown(PointerEventData eventData)
+        public void OnDragStart()
         {
             mainCam = Camera.main;
-            rotationAxis = DetectAxis(eventData);
+            //rotationAxis = DetectAxis(eventData);
 
+            Select();
+            
             if (rotationAxis == Vector3.zero)
             {
-                Select();
+                
                 return;
             }
 
             isDragging = true;
         }
+        public void OnDragging()
+        {
+            // if (!isDragging)
+            //     return;
+            //
+            // ApplyRotation(eventData.delta);
+        }
+        public void OnDragEnd()
+        {
+            ResetDragging();
+        }
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            
+        }
 
         public void OnDrag(PointerEventData eventData)
         {
-            if (!isDragging)
-                return;
-
-            ApplyRotation(eventData.delta);
+            
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
-            ResetDragging();
+            
         }
 
         // =======================

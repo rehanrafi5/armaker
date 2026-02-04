@@ -8,6 +8,7 @@ using UnityEngine.XR.ARSubsystems;
 public class ImageTrackHandler : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI debugTxt;
+    [SerializeField] private GameObject ScanObj;
 
     private bool isInSite;
     
@@ -52,10 +53,12 @@ public class ImageTrackHandler : MonoBehaviour
         // Debug default
         debugTxt.text = trackedImage.referenceImage.name + " - Not Tracked";
 
+        ScanObj.SetActive(true);
         // Only respond to the marker we care about
         if (trackedImage.referenceImage.name != marker || obj == null)
         {
             debugTxt.text = trackedImage.referenceImage.name + " - Not Available";
+            ScanObj.SetActive(true);
             return;
         }
 
@@ -75,6 +78,15 @@ public class ImageTrackHandler : MonoBehaviour
         bool isTracking = trackedImage.trackingState == TrackingState.Tracking;
         isInSite = isTracking;
         obj.SetActive(isTracking);
+
+        if (isTracking)
+        {
+            ScanObj.SetActive(false);
+        }
+        else
+        {
+            ScanObj.SetActive(true);
+        }
 
         debugTxt.text = trackedImage.referenceImage.name + (isTracking ? " - Tracked" : " - Lost");
     }

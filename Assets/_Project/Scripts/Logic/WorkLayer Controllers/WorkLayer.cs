@@ -380,9 +380,36 @@ namespace ARMarker
             ImageOnBack.size = targetSize;
             ImageOnBack.transform.localScale = Vector3.one;
         }
-
-
-
+        public void OnDragStart()
+        {
+            //Ignore undo for locked, temporary, or unplaced layers
+            if (isLocked || cachedData.isTemporary || !cachedData.hasBeenPlaced) 
+                return;
+            
+            MainGameManager.instance.FreeMovement = false;
+            
+            UndoManager.Instance.CaptureBeforeModify(this);
+        }
+        public void OnDragging()
+        {
+            
+        }
+        public void OnDragEnd()
+        {
+            if (isLocked || cachedData.isTemporary) return;
+            
+            if (!cachedData.hasBeenPlaced)
+            {
+                // First time drop → mark as placed, do NOT capture undo
+                cachedData.hasBeenPlaced = true;
+                return;
+            }
+            MainGameManager.instance.FreeMovement = true;
+            // Only capture undo if the layer has been placed before
+            UndoManager.Instance.CaptureAfterModify(this);
+            
+            isInitialDrag = false;
+        }
         public void SetupInitialDrag(bool allowInitialDrag)
         {
             isInitialDrag = allowInitialDrag;
@@ -390,40 +417,40 @@ namespace ARMarker
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            // Ignore undo for locked, temporary, or unplaced layers
-            if (isLocked || cachedData.isTemporary || !cachedData.hasBeenPlaced) 
-                return;
-
-            UndoManager.Instance.CaptureBeforeModify(this);
+            
         }
 
         public void OnEndDrag(PointerEventData eventData)
         {
             if (isLocked || cachedData.isTemporary) return;
-
+            
             if (!cachedData.hasBeenPlaced)
             {
                 // First time drop → mark as placed, do NOT capture undo
                 cachedData.hasBeenPlaced = true;
                 return;
             }
-
+            MainGameManager.instance.FreeMovement = true;
             // Only capture undo if the layer has been placed before
             UndoManager.Instance.CaptureAfterModify(this);
-
-            if (isInitialDrag)
-                isInitialDrag = false;
+            
+            isInitialDrag = false;
         }
 
 
 
         public void OnDrag(PointerEventData eventData)
         {
+            if (cachedData.hasBeenPlaced)
+                return;
+            
             if (isInitialDrag)
             {
                 var newPos = ScreenToWorld(eventData.position, cachedData.position.z);
                 newPos.z = cachedData.position.z;
                 transform.localPosition = newPos;
+                
+                MainGameManager.instance.FreeMovement = false;
             }
         }
 

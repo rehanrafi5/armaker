@@ -27,17 +27,24 @@ namespace ARMarker
         [Header("Settings for 3D")]
 
         [SerializeField]
-        private Vector3 position3D;
+        public Vector3 position3D;
 
         [SerializeField]
-        private Quaternion rotation3D;
+        public Quaternion rotation3D;
 
         [SerializeField]
         private GameObject[] activeObjects3D;
 
+        public bool is3DPerspective;
+        
         public void SwitchPerspective(bool is2D)
         {
             //camera.orthographic = is2D;
+
+            if (is2D)
+            {
+                is3DPerspective = false;
+            }
 
             foreach (var obj in activeObjects2D)
             {
@@ -65,6 +72,14 @@ namespace ARMarker
 
         private IEnumerator LerpTransform(bool is2D)
         {
+            if (is2D)
+            {
+                var orbit = GetComponent<TouchEditorCamera>();
+                if (orbit != null)
+                {
+                    orbit.ShiftTo2D();
+                }
+            }
             var finalPos = is2D ? position2D : position3D;
             var finalRot = is2D ? rotation2D : rotation3D;
 
@@ -88,6 +103,16 @@ namespace ARMarker
 
             transform.position = finalPos;
             transform.rotation = finalRot;
+
+            if (!is2D)
+            {
+                is3DPerspective = true;
+                var orbit = GetComponent<TouchEditorCamera>();
+                if (orbit != null)
+                {
+                    orbit.SyncFromCurrentTransform();
+                }
+            }
         }
 
     }

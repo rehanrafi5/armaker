@@ -44,31 +44,43 @@ namespace ARMarker
         // Pointer Events
         // =======================
 
-        public void OnPointerDown(PointerEventData eventData)
+        public void OnDragStart()
         {
             Select();
-            startPointerPos = eventData.position;
-            startScale = transform.localScale;
+        }
+        public void OnDragging()
+        {
+            Select();
+        }
+        public void OnDragEnd()
+        {
+            
+        }
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            // Select();
+            // startPointerPos = eventData.position;
+            // startScale = transform.localScale;
         }
 
         public void OnDrag(PointerEventData eventData)
         {
             // Keep selection active while dragging
-            Select();
-
-            Vector2 delta = eventData.position - startPointerPos;
-
-            // Project delta onto local X and Y directions
-            Vector2 screenLocalX = GetAxisScreenDirection(transform.right);
-            Vector2 screenLocalY = GetAxisScreenDirection(transform.up);
-
-            float scaleDeltaX = Vector2.Dot(delta, screenLocalX) * scaleSensitivity;
-            float scaleDeltaY = Vector2.Dot(delta, screenLocalY) * scaleSensitivity;
-
-            float newScaleX = Mathf.Clamp(startScale.x * (1f + scaleDeltaX), minScale, maxScale);
-            float newScaleY = Mathf.Clamp(startScale.y * (1f + scaleDeltaY), minScale, maxScale);
-
-            transform.localScale = new Vector3(newScaleX, newScaleY, startScale.z);
+            // Select();
+            //
+            // Vector2 delta = eventData.position - startPointerPos;
+            //
+            // // Project delta onto local X and Y directions
+            // Vector2 screenLocalX = GetAxisScreenDirection(transform.right);
+            // Vector2 screenLocalY = GetAxisScreenDirection(transform.up);
+            //
+            // float scaleDeltaX = Vector2.Dot(delta, screenLocalX) * scaleSensitivity;
+            // float scaleDeltaY = Vector2.Dot(delta, screenLocalY) * scaleSensitivity;
+            //
+            // float newScaleX = Mathf.Clamp(startScale.x * (1f + scaleDeltaX), minScale, maxScale);
+            // float newScaleY = Mathf.Clamp(startScale.y * (1f + scaleDeltaY), minScale, maxScale);
+            //
+            // transform.localScale = new Vector3(newScaleX, newScaleY, startScale.z);
         }
 
         // =======================
