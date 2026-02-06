@@ -2992,6 +2992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugTxt: {fileID: 1437004168}
+  ScanObj: {fileID: 1996313477}
   trackedImageManager: {fileID: 924517690}
 --- !u!4 &1751783586
 Transform:

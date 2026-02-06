@@ -71,6 +71,11 @@ namespace ARMarker
             
             Debug.Log("WorkLayer copies created under: " + copyParent.name);
 
+            var g = FindObjectsOfType<AxisFollowHandler>();
+            for (int i = 0; i < g.Length; i++)
+            {
+                g[i].gameObject.SetActive(false);
+            }
             GameManager.Instance.LoadScene(sceneTarget);
         }
     }
