@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -68,6 +69,7 @@ namespace ARMarker
             
             DontDestroyOnLoad(copyParent.gameObject);
             MainGameManager.instance.currentAR = copyParent.gameObject;
+            copyParent.AddComponent<ABC>();
             
             Debug.Log("WorkLayer copies created under: " + copyParent.name);
 
@@ -76,7 +78,13 @@ namespace ARMarker
             {
                 g[i].gameObject.SetActive(false);
             }
+            
             GameManager.Instance.LoadScene(sceneTarget);
+            
+        }
+        void changescene()
+        {
+            
         }
     }
 }

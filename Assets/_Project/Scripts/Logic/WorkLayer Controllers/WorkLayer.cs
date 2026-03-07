@@ -65,7 +65,9 @@ namespace ARMarker
 
         public SpriteRenderer ImageOnBack;
         
-        public bool hasBeenPlaced = false;  
+        public bool hasBeenPlaced = false;
+
+        [SerializeField] private GameObject[] Axis;
 
         private void Awake()
         {
@@ -87,6 +89,11 @@ namespace ARMarker
 
             WorkSpaceSingleton.Instance
                 .RegisterOnChangeLayer(OnChangeActiveLayer);
+
+            for (int i = 0; i < Axis.Length; i++)
+            {
+                Axis[i].transform.parent = null;
+            }
         }
 
         private void OnEnable()
@@ -164,6 +171,17 @@ namespace ARMarker
                         break;
                     }
             }
+        }
+
+        private void OnMouseDown()
+        {
+            if (statusSelected.activeInHierarchy)
+            {
+                return;
+            }
+            OnSelectLayer();
+            
+            WorkSpaceSingleton.Instance.SetLayerEditMode(LayerEditMode.Reposition);
         }
 
         private void OnSelectLayer()

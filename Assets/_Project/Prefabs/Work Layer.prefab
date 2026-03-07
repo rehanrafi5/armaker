@@ -448,6 +448,10 @@ MonoBehaviour:
   resizeHandler: {fileID: 5522288439511303957}
   ImageOnBack: {fileID: 195844340745286692}
   hasBeenPlaced: 0
+  Axis:
+  - {fileID: 3119190323139587628}
+  - {fileID: 7591307010096893240}
+  - {fileID: 8517600079642940857}
 --- !u!212 &1832763468787142184
 SpriteRenderer:
   m_ObjectHideFlags: 0

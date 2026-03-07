@@ -13,6 +13,10 @@ public class AxisFollowHandler : MonoBehaviour
 
     private void Update()
     {
+        if (target == null)
+        {
+            Destroy(gameObject);
+        }
         transform.position = target.position;
         if (isArrows)
         {

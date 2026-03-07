@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -9,13 +8,11 @@ public class ImageTrackHandler : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI debugTxt;
     [SerializeField] private GameObject ScanObj;
-
-    private bool isInSite;
-    
-    [Header("AR References")]
     [SerializeField] private ARTrackedImageManager trackedImageManager;
 
-    private GameObject spawnedObject;
+    private GameObject arObject;
+    private ARAnchor anchor;
+    private bool placed;
 
     private void OnEnable()
     {
@@ -27,67 +24,74 @@ public class ImageTrackHandler : MonoBehaviour
         trackedImageManager.trackedImagesChanged -= OnTrackedImagesChanged;
     }
 
-    private void Update()
-    {
-        // if (isInSite)
-        // {
-        //     MainGameManager.instance.currentAR.transform.localPosition = Vector3.zero;
-        //     MainGameManager.instance.currentAR.transform.localRotation = Quaternion.identity;
-        // }
-    }
-
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs args)
     {
         foreach (var trackedImage in args.added)
-            HandleTrackedImage(trackedImage);
+            HandleImage(trackedImage);
 
         foreach (var trackedImage in args.updated)
-            HandleTrackedImage(trackedImage);
+            HandleImage(trackedImage);
     }
 
-    private void HandleTrackedImage(ARTrackedImage trackedImage)
+    private void Update()
     {
-        var marker = MainGameManager.instance.CurrentMarker;
-        var obj = MainGameManager.instance.currentAR;
-
-        // Debug default
-        debugTxt.text = trackedImage.referenceImage.name + " - Not Tracked";
-
-        ScanObj.SetActive(true);
-        // Only respond to the marker we care about
-        if (trackedImage.referenceImage.name != marker || obj == null)
+        if (MainGameManager.instance.currentAR == null)
         {
-            debugTxt.text = trackedImage.referenceImage.name + " - Not Available";
-            ScanObj.SetActive(true);
+            var obj = FindFirstObjectByType<ABC>(FindObjectsInactive.Include);
+
+            if (obj != null)
+                MainGameManager.instance.currentAR = obj.gameObject;
+        }
+    }
+
+    private void HandleImage(ARTrackedImage trackedImage)
+    {
+        var manager = MainGameManager.instance;
+
+        if (manager.currentAR == null)
+        {
+            debugTxt.text = "currentAR NULL";
+            
             return;
         }
 
-        // Attach object to tracked image **once**
-        if (obj.transform.parent != trackedImage.transform)
+        if (trackedImage.referenceImage.name != manager.CurrentMarker)
         {
-            obj.transform.SetParent(trackedImage.transform, false);
-            obj.transform.localPosition = Vector3.zero;
-            obj.transform.localRotation = Quaternion.identity;
+            debugTxt.text = "Marker mismatch: " + trackedImage.referenceImage.name;
+            return;
         }
 
-        Vector2 imageSize = trackedImage.size;
-        float scale = Mathf.Min(imageSize.x, imageSize.y);
-        obj.transform.localScale = (Vector3.one * scale) / 2;
-        
-        // Show or hide based on tracking state
-        bool isTracking = trackedImage.trackingState == TrackingState.Tracking;
-        isInSite = isTracking;
-        obj.SetActive(isTracking);
+        if (!placed && trackedImage.trackingState == TrackingState.Tracking)
+        {
+            arObject = manager.currentAR;
 
-        if (isTracking)
+            // Create anchor on tracked image
+            anchor = trackedImage.gameObject.AddComponent<ARAnchor>();
+
+            arObject.transform.SetParent(anchor.transform);
+            arObject.transform.localPosition = Vector3.zero;
+            arObject.transform.localRotation = Quaternion.identity;
+
+            Vector2 size = trackedImage.size;
+            float scale = Mathf.Min(size.x, size.y);
+            arObject.transform.localScale = (Vector3.one * scale) / 2;
+
+            arObject.SetActive(true);
+            ScanObj.SetActive(false);
+
+            placed = true;
+
+            debugTxt.text = "Anchor placed";
+        }
+
+        if (trackedImage.trackingState == TrackingState.Tracking)
         {
             ScanObj.SetActive(false);
+            debugTxt.text = trackedImage.referenceImage.name + " Tracking";
         }
         else
         {
-            ScanObj.SetActive(true);
+            debugTxt.text = trackedImage.referenceImage.name + " Limited";
         }
-
-        debugTxt.text = trackedImage.referenceImage.name + (isTracking ? " - Tracked" : " - Lost");
     }
 }

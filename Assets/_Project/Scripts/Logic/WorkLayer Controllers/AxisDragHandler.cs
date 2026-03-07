@@ -31,6 +31,10 @@ public class AxisDragHandler : MonoBehaviour
     }
     void Update()
     {
+        if (cam == null)
+        {
+            cam = Camera.main;   
+        }
 #if UNITY_EDITOR || UNITY_STANDALONE
         HandleMouse();
 #else
