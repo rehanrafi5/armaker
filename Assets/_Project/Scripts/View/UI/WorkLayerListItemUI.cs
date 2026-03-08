@@ -1,5 +1,4 @@
 using System.Collections;
-using ARMarker.ARMarker;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -95,12 +94,13 @@ namespace ARMarker
             buttonBackground?.onClick.RemoveAllListeners();
         }
 
-        
 
         private void LockLayer()
         {
             if (cachedLayer == null)
+            {
                 return;
+            }
 
             cachedLayer.ToggleLockState();
 
@@ -110,10 +110,6 @@ namespace ARMarker
 
             if (cachedLayer.IsLocked)
             {
-                // Reset undo/redo stacks for a "fresh start"
-                UndoManager.Instance.ResetUndoRedo();
-
-                // Optionally deselect in workspace
                 WorkSpaceSingleton.Instance.ChangeActiveLayer(null);
             }
             else
@@ -121,7 +117,6 @@ namespace ARMarker
                 SafelyForceSelectLayerOnWorkspace();
             }
         }
-
 
         private void DuplicateLayer()
         {

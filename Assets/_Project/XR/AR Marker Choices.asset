@@ -12,25 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaefaa4b1a4f6e44c87e622e928655b6, type: 3}
   m_Name: AR Marker Choices
   m_EditorClassIdentifier: 
-  MarkerData:
-  - imageName: LillyPad_AR
-    previewSprite: {fileID: 21300000, guid: f03376afcf9b8a343b89bde247ff5068, type: 3}
-  - imageName: lilypadtest
-    previewSprite: {fileID: 21300000, guid: fe45b7a0dfd12154c881abf449e6ede2, type: 3}
-  - imageName: LitKitLogoColor
-    previewSprite: {fileID: 21300000, guid: eaaf07167adf8bb448845d81463556d3, type: 3}
-  - imageName: LitKitLogoBlack
-    previewSprite: {fileID: 21300000, guid: f4f288e5b7d21b345a5d9b1233aa03df, type: 3}
-  - imageName: Mountain
-    previewSprite: {fileID: 21300000, guid: 5bb42966eb547994dafa5560185bf191, type: 3}
-  - imageName: Pond
-    previewSprite: {fileID: 21300000, guid: d395da6e335ed9a479ef3a2c94afff4b, type: 3}
-  - imageName: Rat
-    previewSprite: {fileID: 21300000, guid: 605c1f57b34f11941877203ba225dfcc, type: 3}
-  - imageName: Scope
-    previewSprite: {fileID: 21300000, guid: f61e0d03a37ff454eb32913a0e031c79, type: 3}
-  - imageName: SS
-    previewSprite: {fileID: 21300000, guid: db73f587b2b8cec4485b9acdfbb8ab19, type: 3}
   choices:
   - {fileID: 21300000, guid: fe45b7a0dfd12154c881abf449e6ede2, type: 3}
   - {fileID: 21300000, guid: f03376afcf9b8a343b89bde247ff5068, type: 3}

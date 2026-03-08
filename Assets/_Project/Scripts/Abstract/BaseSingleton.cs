@@ -26,7 +26,7 @@ namespace ARMarker
                 {
                     if (s_instance == null)
                     {
-                        s_instance = FindObjectOfType<T>();
+                        s_instance = FindFirstObjectByType<T>();
                     }
 
                     return s_instance;

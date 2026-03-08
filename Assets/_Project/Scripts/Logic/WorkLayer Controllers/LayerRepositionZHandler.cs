@@ -24,39 +24,28 @@ namespace ARMarker
 
         private Vector2 previousPointerPos;
 
-        public void OnDragStart()
-        {
-            
-        }
-        public void OnDragging()
-        {
-        }
-        public void OnDragEnd()
-        {
-            
-        }
         public void OnBeginDrag(PointerEventData eventData)
         {
-            //previousPointerPos = eventData.position;
+            previousPointerPos = eventData.position;
         }
 
         public void OnDrag(PointerEventData eventData)
         {
-            // if (influencedObject == null)
-            //     return;
-            //
-            // Vector2 currentPointerPos = eventData.position;
-            // float deltaX = currentPointerPos.x - previousPointerPos.x;
-            // previousPointerPos = currentPointerPos;
-            //
-            // float deltaZ = deltaX * sensitivity;
-            // float newZ = Mathf.Clamp(influencedObject.position.z + deltaZ, minZ, maxZ);
-            //
-            // influencedObject.position = new Vector3(
-            //     influencedObject.position.x,
-            //     influencedObject.position.y,
-            //     newZ
-            // );
+            if (influencedObject == null)
+                return;
+
+            Vector2 currentPointerPos = eventData.position;
+            float deltaX = currentPointerPos.x - previousPointerPos.x;
+            previousPointerPos = currentPointerPos;
+
+            float deltaZ = deltaX * sensitivity;
+            float newZ = Mathf.Clamp(influencedObject.position.z + deltaZ, minZ, maxZ);
+
+            influencedObject.position = new Vector3(
+                influencedObject.position.x,
+                influencedObject.position.y,
+                newZ
+            );
         }
 
     }

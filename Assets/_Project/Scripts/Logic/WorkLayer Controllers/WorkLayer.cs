@@ -89,7 +89,7 @@ namespace ARMarker
 
             WorkSpaceSingleton.Instance
                 .RegisterOnChangeLayer(OnChangeActiveLayer);
-
+            
             for (int i = 0; i < Axis.Length; i++)
             {
                 Axis[i].transform.parent = null;
@@ -183,7 +183,7 @@ namespace ARMarker
             
             WorkSpaceSingleton.Instance.SetLayerEditMode(LayerEditMode.Reposition);
         }
-
+        
         private void OnSelectLayer()
         {
             statusSelected.SetActive(true);
@@ -398,6 +398,7 @@ namespace ARMarker
             ImageOnBack.size = targetSize;
             ImageOnBack.transform.localScale = Vector3.one;
         }
+
         public void OnDragStart()
         {
             //Ignore undo for locked, temporary, or unplaced layers
@@ -428,6 +429,7 @@ namespace ARMarker
             
             isInitialDrag = false;
         }
+
         public void SetupInitialDrag(bool allowInitialDrag)
         {
             isInitialDrag = allowInitialDrag;
@@ -436,6 +438,22 @@ namespace ARMarker
         public void OnBeginDrag(PointerEventData eventData)
         {
             
+        }
+
+
+        public void OnDrag(PointerEventData eventData)
+        {
+            if (cachedData.hasBeenPlaced)
+                return;
+            
+            if (isInitialDrag)
+            {
+                var newPos = ScreenToWorld(eventData.position, cachedData.position.z);
+                newPos.z = cachedData.position.z;
+                transform.localPosition = newPos;
+                
+                MainGameManager.instance.FreeMovement = false;
+            }
         }
 
         public void OnEndDrag(PointerEventData eventData)
@@ -453,23 +471,6 @@ namespace ARMarker
             UndoManager.Instance.CaptureAfterModify(this);
             
             isInitialDrag = false;
-        }
-
-
-
-        public void OnDrag(PointerEventData eventData)
-        {
-            if (cachedData.hasBeenPlaced)
-                return;
-            
-            if (isInitialDrag)
-            {
-                var newPos = ScreenToWorld(eventData.position, cachedData.position.z);
-                newPos.z = cachedData.position.z;
-                transform.localPosition = newPos;
-                
-                MainGameManager.instance.FreeMovement = false;
-            }
         }
 
 

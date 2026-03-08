@@ -16,10 +16,6 @@ namespace ARMarker
 
         private IEnumerator Start()
         {
-            if (MainGameManager.instance.currentAR != null)
-            {
-                Destroy(MainGameManager.instance.currentAR.gameObject);
-            }
             yield return new WaitForSeconds(delay);
 
             SceneManager.LoadScene((int)scene);

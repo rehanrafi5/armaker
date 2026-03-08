@@ -18,7 +18,6 @@ namespace ARMarker
         public List<Sprite> Choices => choices;
 
     }
-
     [Serializable]
     public class ARImageUIData
     {

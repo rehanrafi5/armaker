@@ -25,8 +25,7 @@ namespace ARMarker
         private ARTrackedImageManager cachedARManager;
 
         private ARSession cachedSession;
-        private ARSessionOrigin cachedSessionOrigin;
-        //private XROrigin cachedSessionOrigin_;
+        private XROrigin cachedSessionOrigin;
         
         private GameObject cachedARObject;
 
@@ -71,7 +70,7 @@ namespace ARMarker
         public ARTrackedImage GetTrackedImage() => cachedTrackedImage;
 
         public void RegisterSessionOrigin(
-            ARSession session, ARSessionOrigin sessionOrigin)
+            ARSession session, XROrigin sessionOrigin)
         {
             cachedSession = session;
             cachedSessionOrigin = sessionOrigin;
@@ -95,7 +94,7 @@ namespace ARMarker
 
             if (cachedARManager != null)
             {
-                cachedARManager.trackedImagesChanged -= OnChangedTrackedImage;
+                cachedARManager.trackablesChanged.RemoveListener(OnChangedTrackedImage);
                 cachedARManager.enabled = false; // ✅ DO NOT DESTROY
             }
 
@@ -116,13 +115,21 @@ namespace ARMarker
 
         private void SetUpTracking()
         {
+            Debug.LogWarning($"{GetType().Name}" +
+                $".SetUpTracking(): cachedSessionOrigin is null? " +
+                $"{cachedSessionOrigin == null}", gameObject);
+
+            Debug.LogWarning($"{GetType().Name}" +
+                $".SetUpTracking(): cachedSession is null? " +
+                $"{cachedSession == null}", gameObject);
+
             runCount++;
 
             cachedARManager = cachedSessionOrigin.gameObject
                 .AddComponent<ARTrackedImageManager>();
             cachedARManager.trackedImagePrefab = prefabARBlankObject;
             cachedARManager.requestedMaxNumberOfMovingImages = maxNumberOfMovingImages;
-            cachedARManager.trackedImagesChanged += OnChangedTrackedImage;
+            cachedARManager.trackablesChanged.AddListener(OnChangedTrackedImage);
         }
 
         private IEnumerator C_StartTracking(Sprite marker)
@@ -195,7 +202,7 @@ namespace ARMarker
             StartCoroutine(C_StartTracking(marker));
         }
 
-        private void OnChangedTrackedImage(ARTrackedImagesChangedEventArgs eventArgs)
+        private void OnChangedTrackedImage(ARTrackablesChangedEventArgs<ARTrackedImage> eventArgs)
         {
             if (!isActiveAndEnabled)
                 return;

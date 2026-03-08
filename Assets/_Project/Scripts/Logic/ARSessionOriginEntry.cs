@@ -11,10 +11,8 @@ namespace ARMarker
         [SerializeField]
         private ARSession aRSession;
 
-        //[SerializeField] private XROrigin xrOrigin;
-        
         [SerializeField]
-        private ARSessionOrigin aRSessionOrigin;
+        private XROrigin aRSessionOrigin;
 
         private void Awake()
         {
