@@ -1,6 +1,7 @@
 using System.Collections;
 using ARMarker;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class TouchEditorCamera : MonoBehaviour
 {
@@ -31,6 +32,17 @@ public class TouchEditorCamera : MonoBehaviour
     private float pitch;
     private float distance;
 
+    bool IsPointerOverUI()
+    {
+#if UNITY_EDITOR
+        return EventSystem.current.IsPointerOverGameObject();
+#else
+    if (Input.touchCount > 0)
+        return EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
+    return false;
+#endif
+    }
+    
     void Start()
     {
         thisCameraPerspectiveSwitcher = GetComponent<CameraPerspectiveSwitcher>();
@@ -51,10 +63,13 @@ public class TouchEditorCamera : MonoBehaviour
     {
         if (!MainGameManager.instance.FreeMovement)
             return;
+
         if (!thisCameraPerspectiveSwitcher.is3DPerspective)
-        {
             return;
-        }
+
+        if (IsPointerOverUI())
+            return;
+        
 #if UNITY_EDITOR
         HandleEditorInput();
 #else

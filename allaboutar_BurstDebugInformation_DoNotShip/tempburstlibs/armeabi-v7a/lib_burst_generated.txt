@@ -10,7 +10,7 @@ Library: /Users/SallmanRafi/Downloads/ArMaker/Temp/BurstOutput/tempburstlibs/arm
 --target-framework=NetFramework
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/SallmanRafi/Downloads/ArMaker/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/6000.0.60f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/6000.0.63f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/SallmanRafi/Downloads/ArMaker/Library/Burst
 --output=/Users/SallmanRafi/Downloads/ArMaker/Temp/BurstOutput/tempburstlibs/armeabi-v7a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -126,7 +126,7 @@ Library: /Users/SallmanRafi/Downloads/ArMaker/Temp/BurstOutput/tempburstlibs/arm
 --target-framework=NetFramework
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/SallmanRafi/Downloads/ArMaker/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/6000.0.60f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/6000.0.63f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/SallmanRafi/Downloads/ArMaker/Library/Burst
 --output=/Users/SallmanRafi/Downloads/ArMaker/Temp/BurstOutput/tempburstlibs/armeabi-v7a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -190,7 +190,7 @@ Library: /Users/SallmanRafi/Downloads/ArMaker/Temp/BurstOutput/tempburstlibs/arm
 --float-mode=Fast
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/SallmanRafi/Downloads/ArMaker/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/6000.0.60f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/6000.0.63f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/SallmanRafi/Downloads/ArMaker/Library/Burst
 --output=/Users/SallmanRafi/Downloads/ArMaker/Temp/BurstOutput/tempburstlibs/armeabi-v7a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/

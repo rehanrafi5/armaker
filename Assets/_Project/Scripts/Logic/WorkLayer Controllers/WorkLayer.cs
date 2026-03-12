@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using ARMarker.ARMarker;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Video;
@@ -64,6 +65,8 @@ namespace ARMarker
         private bool isInitialDrag;
 
         public SpriteRenderer ImageOnBack;
+
+        private bool alreadyPlaced = false;
         
         public bool hasBeenPlaced = false;
 
@@ -397,6 +400,23 @@ namespace ARMarker
             ImageOnBack.drawMode = SpriteDrawMode.Sliced;
             ImageOnBack.size = targetSize;
             ImageOnBack.transform.localScale = Vector3.one;
+            ImageOnBack.AddComponent<Animator>();
+            ImageOnBack.GetComponent<Animator>().runtimeAnimatorController =  GetComponent<Animator>().runtimeAnimatorController;
+        }
+
+        private void Update()
+        {
+            ImageOnBack.GetComponent<Animator>().runtimeAnimatorController =  GetComponent<Animator>().runtimeAnimatorController;
+
+            if (alreadyPlaced)
+            {
+                return;
+            }
+            if (cachedData.hasBeenPlaced)
+            {
+                alreadyPlaced = true;
+                transform.localPosition = new Vector3(0f, 0f, -1f);
+            }
         }
 
         public void OnDragStart()
@@ -455,7 +475,7 @@ namespace ARMarker
                 MainGameManager.instance.FreeMovement = false;
             }
         }
-
+        
         public void OnEndDrag(PointerEventData eventData)
         {
             if (isLocked || cachedData.isTemporary) return;

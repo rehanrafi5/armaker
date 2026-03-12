@@ -225,7 +225,21 @@ namespace ARMarker
                     continue;
 
                 cachedTrackedImage = updatedImage;
-                onStatusChange?.Invoke(ARStatus.ActivelyTrackingMarker);
+
+                if (updatedImage.trackingState == TrackingState.Tracking)
+                {
+                    if (cachedARObject != null)
+                        cachedARObject.SetActive(true);
+
+                    onStatusChange?.Invoke(ARStatus.ActivelyTrackingMarker);
+                }
+                else
+                {
+                    if (cachedARObject != null)
+                        cachedARObject.SetActive(false);
+
+                    onStatusChange?.Invoke(ARStatus.LostMarker);
+                }
             }
 
             foreach (var removedImage in eventArgs.removed)
