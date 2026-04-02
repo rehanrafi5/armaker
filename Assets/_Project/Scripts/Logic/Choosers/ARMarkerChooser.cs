@@ -62,7 +62,7 @@ namespace ARMarker
             {
                 XRReferenceImage refImage = TheLibrary[i];
 
-                for (int j = 0; j < choices.MarkerData.Length; j++)
+                for (int j = 0; j < choices.MarkerData.Count; j++)
                 {
                     if (TheLibrary[i].name == choices.MarkerData[j].imageName)
                     {

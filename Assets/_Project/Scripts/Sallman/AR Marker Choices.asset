@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaefaa4b1a4f6e44c87e622e928655b6, type: 3}
   m_Name: AR Marker Choices
   m_EditorClassIdentifier: 
+  TheLibrary: {fileID: 11400000, guid: e650248b8c448664382726082946844b, type: 2}
   MarkerData:
   - imageName: LillyPad_AR
     previewSprite: {fileID: 21300000, guid: f03376afcf9b8a343b89bde247ff5068, type: 3}
