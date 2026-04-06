@@ -32,6 +32,8 @@ MonoBehaviour:
     previewSprite: {fileID: 21300000, guid: f61e0d03a37ff454eb32913a0e031c79, type: 3}
   - imageName: SS
     previewSprite: {fileID: 21300000, guid: db73f587b2b8cec4485b9acdfbb8ab19, type: 3}
+  - imageName: Beer
+    previewSprite: {fileID: 21300000, guid: 8c648cfba96de4e14a165ed40ed6169d, type: 3}
   choices:
   - {fileID: 21300000, guid: fe45b7a0dfd12154c881abf449e6ede2, type: 3}
   - {fileID: 21300000, guid: f03376afcf9b8a343b89bde247ff5068, type: 3}

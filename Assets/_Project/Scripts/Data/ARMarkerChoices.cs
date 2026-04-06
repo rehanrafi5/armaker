@@ -22,6 +22,8 @@ namespace ARMarker
         [ContextMenu("Auto Fill From Library")]
         public void AutoFill()
         {
+            #if UNITY_EDITOR
+            
             MarkerData.Clear();
 
             string[] searchFolders = new string[]
@@ -62,6 +64,8 @@ namespace ARMarker
             }
 
             Debug.Log("Auto Fill Complete");
+            
+            #endif
         }
     }
     [Serializable]

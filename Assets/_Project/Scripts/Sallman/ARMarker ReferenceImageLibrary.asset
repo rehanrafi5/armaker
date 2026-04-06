@@ -107,3 +107,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: SS
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5185931090574590954
+      m_GuidHigh: 6512421615287124916
+    m_SerializedTextureGuid:
+      m_GuidLow: 16492649598379396347
+      m_GuidHigh: 11319470072623142474
+    m_Size: {x: 0.1, y: 0.12691976}
+    m_SpecifySize: 1
+    m_Name: Beer
+    m_Texture: {fileID: 0}
